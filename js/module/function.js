@@ -50,28 +50,22 @@ let displayAppear = [
   };
   //화면 전환 함수
 
-  function mouseoverBigger (target, target2, target3, widthsize, heightsize) {
+  function mouseoverBigger (target, widthsize, heightsize) {
     target.addEventListener('mouseover', function() {
       target.style.zIndex = 6;
       target.style.width = (widthsize+20)+"px";
       target.style.height = (heightsize+20)+"px";
       target.style.transform = "rotate(1deg)";
-
-      target2.style.display = 'flex';
-      target3.style.display = 'flex';
     });
   };
   //작업물 마우스오버하면 커지는 효과
 
-  function mouseleaveSmaller (target, target2, target3, widthsize, heightsize) {
+  function mouseleaveSmaller (target, widthsize, heightsize) {
       target.addEventListener('mouseleave', function() {
         target.style.zIndex = 1;
         target.style.width = widthsize+"px";
         target.style.height = heightsize+"px";
         target.style.transform = "rotate(0deg)";
-
-        target2.style.display = 'none';
-        target3.style.display = 'none';
     });
   };
   //작업물 마우스리브하면 작아지는 효과

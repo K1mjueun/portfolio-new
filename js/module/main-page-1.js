@@ -10,24 +10,16 @@ const toyproject = workBox.children[2];
 
 const bling = document.querySelector('.my-photo-mini > section:nth-child(2)');
 
-const mpclick1 = document.querySelector('#main-page > #board >.click-1');
-const mpclick2 = document.querySelector('#main-page > #board >.click-2');
-const mpclick3 = document.querySelector('#main-page > #board >.click-3');
-
-const mparrow1 = document.querySelector('#main-page > #board >.arrow-1');
-const mparrow2 = document.querySelector('#main-page > #board >.arrow-2');
-const mparrow3 = document.querySelector('#main-page > #board >.arrow-3');
-
 let AppImgWidth = 385;
 let AppImgHeight = 380;
 
-mouseoverBigger(windie, mpclick1, mparrow1,AppImgWidth, AppImgHeight);
-mouseoverBigger(bubbleroom, mpclick2, mparrow2, AppImgWidth, AppImgHeight);
-mouseoverBigger(toyproject, mpclick3, mparrow3,AppImgWidth, AppImgHeight);
+mouseoverBigger(windie,AppImgWidth, AppImgHeight);
+mouseoverBigger(bubbleroom, AppImgWidth, AppImgHeight);
+mouseoverBigger(toyproject,AppImgWidth, AppImgHeight);
 
-mouseleaveSmaller(windie, mpclick1, mparrow1,AppImgWidth, AppImgHeight);
-mouseleaveSmaller(bubbleroom, mpclick2, mparrow2,AppImgWidth, AppImgHeight);
-mouseleaveSmaller(toyproject, mpclick3, mparrow3,AppImgWidth, AppImgHeight);
+mouseleaveSmaller(windie, AppImgWidth, AppImgHeight);
+mouseleaveSmaller(bubbleroom, AppImgWidth, AppImgHeight);
+mouseleaveSmaller(toyproject, AppImgWidth, AppImgHeight);
 
 
 let blingBingle = [
