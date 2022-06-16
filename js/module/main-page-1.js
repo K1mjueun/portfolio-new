@@ -18,22 +18,22 @@ const mparrow1 = document.querySelector('#main-page > #board >.arrow-1');
 const mparrow2 = document.querySelector('#main-page > #board >.arrow-2');
 const mparrow3 = document.querySelector('#main-page > #board >.arrow-3');
 
-let windieMemoWidth = 350;
-let windieMemoHeight = 400;
+// let windieMemoWidth = 350;
+// let windieMemoHeight = 400;
 
-let bubbleroomMemoWidth = 400;
-let bubbleroomMemoHeight = 410;
+// let bubbleroomMemoWidth = 400;
+// let bubbleroomMemoHeight = 410;
 
-let toypjMemoWidth = 300;
-let toypjMemoHeight = 450;
+// let toypjMemoWidth = 300;
+// let toypjMemoHeight = 450;
 
-mouseoverBigger(windieMemo, mpclick1, mparrow1,windieMemoWidth, windieMemoHeight);
-mouseoverBigger(bubbleroomMemo, mpclick2, mparrow2, bubbleroomMemoWidth, bubbleroomMemoHeight);
-mouseoverBigger(toypjMemo, mpclick3, mparrow3,toypjMemoWidth, toypjMemoHeight);
+// mouseoverBigger(windie, mpclick1, mparrow1,windieMemoWidth, windieMemoHeight);
+// mouseoverBigger(bubbleroom, mpclick2, mparrow2, bubbleroomMemoWidth, bubbleroomMemoHeight);
+// mouseoverBigger(toyproject, mpclick3, mparrow3,toypjMemoWidth, toypjMemoHeight);
 
-mouseleaveSmaller(windieMemo, mpclick1, mparrow1,windieMemoWidth, windieMemoHeight);
-mouseleaveSmaller(bubbleroomMemo, mpclick2, mparrow2,bubbleroomMemoWidth, bubbleroomMemoHeight);
-mouseleaveSmaller(toypjMemo, mpclick3, mparrow3,toypjMemoWidth, toypjMemoHeight);
+// mouseleaveSmaller(windieMemo, mpclick1, mparrow1,windieMemoWidth, windieMemoHeight);
+// mouseleaveSmaller(bubbleroomMemo, mpclick2, mparrow2,bubbleroomMemoWidth, bubbleroomMemoHeight);
+// mouseleaveSmaller(toypjMemo, mpclick3, mparrow3,toypjMemoWidth, toypjMemoHeight);
 
 
 let blingBingle = [
