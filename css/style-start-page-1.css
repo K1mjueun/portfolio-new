@@ -11,68 +11,30 @@
   flex-direction: column;
 }
 
-#start-1 > .my-photo-hide {
-  width: 320px;
-  height: 400px;
+#start-1 > .portfolio-text >.my-photo-hide {
+  width: 200px;
+  height: 250px;
   background-image: url('/img/김주은-물음표.png');
   background-size: cover;
-  position: absolute;
-  left: 40%;
+  margin-left: 2%;
 }
 
-#start-1 > .my-photo-hide:hover {
+#start-1 > .portfolio-text >.my-photo-hide:hover {
   cursor: pointer;
 }
 
-#start-1 > .speech-bubble-gray {
-width: 100px;
-height: 100px;
-background-image: url('/img/speech-bubble-gray.png');
-background-size: cover;
-position: absolute;
-top: 23%;
-right: 41%;
-
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
 #start-1 > .portfolio-text {
-width: 75%;
+width: 100%;
 height: 40%;
 display: flex;
-justify-content: center;
-flex-direction: column;
-}
-
-#start-1 > .portfolio-text > h2 {
-width: 100%;
-display: flex;
-justify-content: flex-end;
-}
-
-#start-1 > .portfolio-text > h1, #start-1 > .portfolio-text > h2 {
-font-size: 30px;
-font-weight: lighter;
-color: var(--color-gray-2);
-}
-
-#start-1 > .portfolio-text > .portfolio {
-width: 100%;
-height: 50%;
-font-family: 'Poppins';
-display: flex;
 align-items: center;
-justify-content: space-between;
+justify-content: center;
 }
 
-#start-1 > .portfolio-text > .portfolio > h1, #start-1 > .portfolio-text > .portfolio > h2 {
-font-size: 230px;
-font-family: 'Lilita One';
-color: var(--color-gray-1);
--webkit-text-stroke: 1.5px var(--color-gray-2);
-letter-spacing: -7px;
+#start-1 > .portfolio-text > h1 {
+font-size: 250px;
+font-weight: normal;
+color: var(--color-black-1);
 }
 
 #start-1 > .arrow-gray, #start-1 > h1 {
@@ -86,18 +48,18 @@ background-image: url('/img/arrow-gray.png');
 background-size: cover;
 position: absolute;
 
-bottom: 25%;
-right: 45%;
+bottom: 30%;
+right: 18%;
 }
 
 #start-1 > h1 {
-font-size: 20px;
+font-size: 25px;
 font-weight: lighter;
-color: var(--color-gray-2);
+color: var(--color-real-gray);
 position:absolute;
 
-bottom: 23%;
-right: 46%;
+bottom: 25%;
+right: 18%;
 transform: rotate(-10deg);
 }
 /* start page1 */
