@@ -2,111 +2,76 @@
 #start-2 {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(255, 221, 189, 1);
+  background-color: var(--color-bage-1);
 
   display: none;
   align-items: center;
   justify-content: center;
-  position: relative;
   flex-direction: column;
-
+  
+  position: relative;
   opacity: 0;
 }
 
-#start-2 > .my-photo {
-  width: 320px;
-  height: 400px;
+#start-2 > .portfolio-text > .my-photo {
+  width: 230px;
+  height: 280px;
   background-image: url('/img/김주은-누끼.png');
   background-size: cover;
-  position: absolute;
-  left: 40%;
+  margin-left: 2%;
 }
 
-#start-2 > .my-photo:hover {
+#start-2 > .portfolio-text > .my-photo:hover {
   cursor: pointer;
 }
 
-#start-2 > .start-speech-bubble {
-width: 160px;
-height: 160px;
-background-image: url('/img/speech-bubble.png');
-background-size: cover;
-position: absolute;
-top: 18%;
-right: 38%;
-
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-#start-2 > .start-speech-bubble > p {
-  font-family: 'Gamja Flower';
-  text-align: center;
-  color: #333;
-  font-size: 22px;
-}
-
 #start-2 > .portfolio-text {
-width: 75%;
-height: 40%;
-display: flex;
-justify-content: center;
-flex-direction: column;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#start-2 > .portfolio-text > h2 {
-width: 100%;
-display: flex;
-justify-content: flex-end;
-}
-
-#start-2 > .portfolio-text > h1, #start-2 > .portfolio-text > h2 {
-font-size: 30px;
-font-weight: lighter;
-color: rgba(255, 162, 75, 1);
-}
-
-#start-2 > .portfolio-text > .portfolio {
-font-family: 'Poppins';
-width: 100%;
-height: 50%;
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-
-#start-2 > .portfolio-text > .portfolio > h1, #start-2 > .portfolio-text > .portfolio > h2 {
-font-size: 230px;
-font-family: 'Lilita One';
-color: var(--color-orange-1);
--webkit-text-stroke: 1.5px var(--color-orange-3);
-letter-spacing: -7px;
+#start-2 > .portfolio-text > h1 {
+  font-size: 250px;
+  font-weight: normal;
+  color: var(--color-orbrown-2);
 }
 
 #start-2 > .arrow-1, #start-2 > h1 {
 display: none;
 }
 
+#start-2 > p {
+  font-size: 40px;
+  color: var(--color-orbrown-2);
+  position: absolute;
+  right: 30%;
+  bottom: 35%;
+}
+
 #start-2 > .arrow-1 {
 width: 27px;
 height: 50px;
-background-image: url("/img/arrow-1.png");
+background-image: url("/img/펜/arrow-1.png");
 background-size: cover;
 position: absolute;
+opacity: .5;
 
-bottom: 25%;
-right: 45%;
+bottom: 30%;
+right: 18%;
 }
 
 #start-2 > h1 {
-font-size: 20px;
+font-size: 25px;
 font-weight: lighter;
-color: var(--color-orange-2);
+color: var(--color-orbrown-1);
 position:absolute;
+opacity: .7;
 
-bottom: 23%;
-right: 46%;
+bottom: 25%;
+right: 18%;
 transform: rotate(-10deg);
 }
 /* start page2 */
