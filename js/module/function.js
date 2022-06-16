@@ -55,6 +55,7 @@ let displayAppear = [
       target.style.zIndex = 6;
       target.style.width = (widthsize+20)+"px";
       target.style.height = (heightsize+20)+"px";
+      target.style.transform = "rotate(1deg)";
 
       target2.style.display = 'flex';
       target3.style.display = 'flex';
@@ -67,6 +68,7 @@ let displayAppear = [
         target.style.zIndex = 1;
         target.style.width = widthsize+"px";
         target.style.height = heightsize+"px";
+        target.style.transform = "rotate(0deg)";
 
         target2.style.display = 'none';
         target3.style.display = 'none';
