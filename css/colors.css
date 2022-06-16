@@ -1,7 +1,14 @@
 :root {
-  --color-gray-1:#ccc;
-  --color-gray-2:#333;
-  --color-orange-1:rgba(255, 221, 189, 1);
+  --color-white-1:#fff;
+  --color-white-2:#f0f0f0;
+
+  --color-gray-1:#D9D9D9;
+  --color-gray-2:#ccc;
+
+  --color-black-1:#1C1C1C;
+  --color-black-2:#000;
+
+  --color-bage-1:#FFF8F1;
   --color-orange-2:rgba(255, 162, 75, 1);
   --color-orange-3:rgba(255, 136, 26, 1);
 }
