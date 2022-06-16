@@ -1,0 +1,68 @@
+/* bubbleroom-tablet-page */
+#bubbleroom-tablet-page {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  opacity : 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+
+  background-color: #f0f0f0;
+}
+
+#bubbleroom-tablet-page >#note-board>.tablet-arrow-sticker {
+  width: 150px;
+  height: 60px;
+  background-image: url('/img/뒤로가기-화살표.png');
+  background-size: cover;
+  transform: rotate(6deg);
+  
+  left:1%;
+  top:2%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+#bubbleroom-tablet-page >#note-board>.tablet-arrow-sticker > h1 {
+  font-size: 15px;
+  color: #f0f0f0;
+}
+
+#bubbleroom-tablet-page >#note-board>.tablet-arrow-sticker,#bubbleroom-tablet-page >#note-board>.tablet-top-sticker:hover {
+  cursor: pointer;
+}
+
+#bubbleroom-tablet-page >#note-board>.tablet-top-sticker {
+  width: 150px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #f0f0f0;
+  border: var(--color-orange-2) 4px solid;
+  transform: rotate(-10deg);
+  
+  position: absolute;
+  right:1%;
+  bottom:2%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bubbleroom-tablet-page >#note-board>.tablet-top-sticker > h1 {
+  font-size: 16px;
+  color: var(--color-orange-2);
+}
+
+/* 작동하는 버블룸 태블릿 화면 */
+#bubbleroom-tablet {
+  width: 600px;
+  height: 800px;
+  border-radius: 30px;
+  background-color: #fff;
+}

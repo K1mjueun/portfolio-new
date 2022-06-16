@@ -1,0 +1,314 @@
+/* main page 1 */
+#main-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-orange-1);
+  
+  display: none;
+  align-items: center;
+  justify-content: center;
+  opacity : 0;
+}
+
+#note-board {
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+  background-image: url('/img/종이-이미지-수정.png');
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  box-shadow: 3px 3px 10px 5px rgba(0,0,0,0.1);
+}
+
+.my-photo-mini {
+  width: 220px;
+  height: 260px;
+  background-image: url('/img/김주은-누끼.png');
+  background-size: cover;
+  position: absolute;
+
+  top:-2%;
+  left: 2%;
+}
+
+.my-photo-mini > section:nth-child(1) {
+  width: 85px;
+  height: 35px;
+  background-image: url('/img/sunglasses.png');
+  background-size: cover;
+  position: absolute;
+
+  right: 25%;
+  top:22%;
+  transform:rotate(30deg);
+}
+
+.my-photo-mini > section:nth-child(2) {
+  width: 33.5px;
+  height: 50px;
+  background-image: url('/img/blingbling.png');
+  background-size: cover;
+  position: absolute;
+
+  left: 30%;
+  top: 3%;
+} 
+
+.speech-bubble-emoji {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url('/img/speech-bubble.png');
+  background-size: cover;
+  position: absolute;
+  
+  top:-2%;
+  left: 13%;
+}
+
+.speech-bubble-emoji > section {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-image: url('/img/emoji-sunglasses.png');
+  background-size: cover;
+  margin-bottom: 5%;
+}
+
+.introduce-paper {
+  width: 60%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+
+  position: absolute;
+  top: 7%;
+}
+
+.introduce-paper > h1 {
+  font-family: 'Gamja Flower';
+  color: var(--color-gray-2);
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.windie-memo, .bubbleroom-memo, .toyproject-memo {
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.windie-memo,.shadow-1 {
+  transform: rotate(-5deg);
+}
+
+.bubbleroom-memo,.shadow-2 {
+  transform: rotate(2.5deg);
+}
+
+.windie-memo > h1, .bubbleroom-memo > h1, .toyproject-memo > h1 {
+  font-family: 'Poppins';
+  font-size: 20px;
+  color: var(--color-gray-2);
+}
+
+.windie-memo > h1 {
+  padding-bottom: 5%;
+}
+.bubbleroom-memo > h1 {
+  padding-bottom: 12%;
+  padding-right: 5%;
+}
+.toyproject-memo > h1 {
+  padding-bottom: 9%;
+}
+
+.windie-memo, .bubbleroom-memo, .toyproject-memo:hover {
+  cursor: pointer;
+}
+
+.windie-memo {
+  width: 350px;
+  height: 400px;
+  background-image: url('/img/윈디-메모지-그림자제거.png');
+
+  left:12%;
+  bottom:25%;
+}
+
+.bubbleroom-memo {
+  width: 400px;
+  height: 410px;
+  background-image: url('/img/버블룸-메모지-그림자제거.png');
+
+  right: 36%;
+  bottom:15%;
+}
+
+.toyproject-memo {
+  width: 300px;
+  height: 450px;
+  background-image: url('/img/토이프로젝트-폴라로이드-그림자제거.png');
+
+  right:12%;
+}
+
+.shadow-1, .shadow-2, .shadow-3 {
+/* 그림자 */
+background-color: var(--color-gray-2);
+opacity: 0.1;
+position: absolute;
+}
+
+.shadow-1 {
+  width: 340px;
+  height: 290px;
+  left:11.7%;
+  bottom:24.4%;
+}
+
+.shadow-2 {
+  width: 340px;
+  height: 370px;
+  left:41.15%;
+  bottom:18%;
+}
+
+.shadow-3 {
+  width: 295px;
+  height: 400px;
+  right:12.3%;
+  bottom:23%;
+}
+
+#main-page > #note-board > .click-1, #main-page > #note-board >.click-2, #main-page > #note-board >.click-3, #main-page > #note-board >.arrow-1, #main-page > #note-board >.arrow-2, #main-page > #note-board >.arrow-3 {
+  display: none;
+}
+
+#main-page > #note-board >.click-1, #main-page > #note-board >.click-2, #main-page > #note-board >.click-3 {
+  font-size: 25px;
+  font-weight: lighter;
+  color: var(--color-orange-2);
+  position: absolute;
+}
+
+#main-page > #note-board >.click-1 {
+  bottom:14%;
+  left: 22%;
+}
+
+#main-page > #note-board >.click-2 {
+  top:25%;
+  right: 47%;
+}
+
+#main-page > #note-board >.click-3 {
+  bottom:13%;
+  right: 16.5%;
+  transform: rotate(-10deg);
+}
+
+#main-page > #note-board >.arrow-1, #main-page > #note-board >.arrow-2, #main-page > #note-board >.arrow-3 {
+  background-size: cover;
+  position: absolute;
+}
+
+#main-page > #note-board >.arrow-1 {
+  width: 30px;
+  height: 50px;
+  bottom:15%;
+  left: 25%;
+  background-image: url('/img/arrow-1.png');
+  transform: rotate(60deg);
+}
+
+#main-page > #note-board >.arrow-2 {
+  width: 50px;
+  height: 50px;
+  top:25%;
+  right: 50%;
+  background-image: url('/img/arrow-2.png');
+  transform: rotate(-70deg);
+}
+
+#main-page > #note-board >.arrow-3 {
+  width: 25px;
+  height: 50px;
+  bottom:13%;
+  right: 20%;
+  background-image: url('/img/arrow-3.png');
+  transform: rotate(-70deg);
+}
+
+/* 스티커들 */
+.windie-sticker, .bubbleroom-sticker, .toyproject-sticker, .toyproject-sticker-circle, .my-work-line {
+  background-size: cover;
+  position: absolute;
+}
+
+.my-work-line {
+  width: 200px;
+  height: 25px;
+  background-image: url("/img/펜/펜-밑줄-오렌지2-좌우반전.png");
+  background-size: cover;
+
+  top : 14%;
+  z-index: 1;
+}
+
+.windie-sticker {
+  width: 170px;
+  height: 50px;
+  background-image: url('/img/스티커/윈디-스티커-가로형.png');
+
+  bottom:13%;
+  left:9%;
+  transform: rotate(3deg);
+}
+
+.bubbleroom-sticker {
+  width: 160px;
+  height: 70px;
+  background-image: url('/img/스티커/버블룸-스티커-타원형-2.png');
+
+  top:25%;
+  right:35%;
+  transform: rotate(-3deg);
+}
+
+.toyproject-sticker {
+  width: 100px;
+  height: 100px;
+  background-image: url('/img/스티커/만두-스티커-메롱.png');
+
+  bottom:10%;
+  right:5%;
+  transform: rotate(-3deg);
+
+  z-index: 1;
+}
+
+.toyproject-sticker-circle {
+  width: 90px;
+  height: 90px;
+  background-image: url('/img/스티커/만두-스티커-원형-기본.png');
+
+  bottom:7%;
+  right:7.5%;
+  transform: rotate(10deg);
+}
+/* 스티커들 */

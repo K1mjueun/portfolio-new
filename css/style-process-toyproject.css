@@ -1,0 +1,158 @@
+/* toyproject-process-page */
+#toyproject-process-page {
+  width: 100vw;
+  height: 500vh;
+  display: none;
+  opacity : 0;
+  flex-direction: column;
+  position: relative;
+}
+
+#toyproject-process-page > #toyproject-process-page-1 > #note-board >.process-arrow-sticker {
+  width: 150px;
+  height: 60px;
+  background-image: url('/img/뒤로가기-화살표.png');
+  background-size: cover;
+  transform: rotate(6deg);
+  
+  left:1%;
+  top:2%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+#toyproject-process-page > #toyproject-process-page-1 > #note-board >.process-arrow-sticker > h1 {
+  font-size: 15px;
+  color: #f0f0f0;
+}
+
+#toyproject-process-page > #toyproject-process-page-1 > #note-board >.process-arrow-sticker,#toyproject-process-page > #toyproject-process-page-5 > #note-board >.top-sticker:hover {
+  cursor: pointer;
+}
+
+#toyproject-process-page > #toyproject-process-page-5 > #note-board >.top-sticker {
+  width: 150px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #f0f0f0;
+  border: var(--color-orange-2) 4px solid;
+  transform: rotate(-10deg);
+  
+  position: absolute;
+  right:1%;
+  bottom:2%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#toyproject-process-page > #toyproject-process-page-5 > #note-board >.top-sticker > h1 {
+  font-size: 16px;
+  color: var(--color-orange-2);
+}
+
+#toyproject-process-page-1,#toyproject-process-page-2,#toyproject-process-page-3,#toyproject-process-page-4,#toyproject-process-page-5 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toyproject-process-img-1, .toyproject-process-img-2, .toyproject-process-img-3, .toyproject-process-img-4, .toyproject-process-img-5 {
+  width: 45%;
+  height: 81%;
+  margin-top: -1%;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toyproject-process-img-1 {
+  background-image: url("/img/기획 과정 페이지 소스/토이-기획-소스-1.png");
+}
+.toyproject-process-img-2 {
+  background-image: url("/img/기획 과정 페이지 소스/토이-기획-소스-2.png");
+}
+.toyproject-process-img-3 {
+  background-image: url("/img/기획 과정 페이지 소스/토이-기획-소스-3.png");
+}
+.toyproject-process-img-4 {
+  background-image: url("/img/기획 과정 페이지 소스/토이-기획-소스-4.png");
+}
+.toyproject-process-img-5 {
+  background-image: url("/img/기획 과정 페이지 소스/토이-기획-소스-5.png");
+}
+
+.toyproject-process-img-1 > section, .toyproject-process-img-2 > section, .toyproject-process-img-3 > section, .toyproject-process-img-4 > section, .toyproject-process-img-5 > section {
+  width: 85%;
+  height: 80%;
+  margin-top: 6%;
+  margin-left: 2%;
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+}
+
+.toyproject-process-img-1 > section {
+  background-image: url("/toy-project/img/만두\ 공놀이1.jpg");
+}
+
+.toyproject-process-img-2 > section {
+  background-image: url("/toy-project/img/토이프로젝트-일러스트.png");
+}
+
+.toyproject-process-img-5 > section {
+  background-image: url("/img/목업/목업-토이프로젝트-PC-1.png");
+}
+
+.toyproject-process-info-1, .toyproject-process-info-2, .toyproject-process-info-3, .toyproject-process-info-4, .toyproject-process-info-5 {
+  width: 45%;
+  height: 80%;
+  margin-top: 1%;
+  margin-left: 2%;
+  font-family: 'Gamja flower';
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.toyproject-why, .toyproject-how, .toyproject-design, .toyproject-figma, .toyproject-mockup {
+  width: 130px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #D1ECFF;
+  border: 4px solid #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #2E2E2E;
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+.toyproject-why, .toyproject-process-info-1 > h1, .toyproject-how, .toyproject-process-info-2 > h1 {
+  margin-bottom: 20px;
+}
+
+.toyproject-process-info-1 > h1,.toyproject-process-info-2 > h1 {
+  font-size: 30px;
+}
+
+.toyproject-process-info-1 > p, .toyproject-process-info-2 > p {
+  font-size: 25px;
+  line-height: 40px;
+}

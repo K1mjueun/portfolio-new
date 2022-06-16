@@ -1,0 +1,155 @@
+/* work-page-toyproject */
+#work-page-toyproject {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+  
+  display: none;
+  align-items: center;
+  justify-content: center;
+  opacity : 0;
+}
+
+.arrow-sticker,#work-process > section,#work-img-slide>.left-button, #work-img-slide>.right-button,.contact-stamp-3:hover {
+  cursor: pointer;
+}
+
+.arrow-sticker, .toyproject-memo-2, #work-img-slide, #work-process, .wp-toyproject-sticker-1, .wp-toyproject-sticker-2, .wp-toyproject-sticker-3 {
+  position: absolute;
+  background-size: cover;
+}
+
+.arrow-sticker {
+  width: 150px;
+  height: 60px;
+  background-image: url('/img/뒤로가기-화살표.png');
+  transform: rotate(3deg);
+  
+  left:1%;
+  top:2%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-sticker > h1 {
+  font-size: 15px;
+  color: #f0f0f0;
+}
+
+.toyproject-memo-2 {
+  width: 100px;
+  height: 150px;
+  background-image: url('/img/토이프로젝트-폴라로이드-그림자제거.png');
+  transform: rotate(2deg);
+  
+  top:-5%;
+}
+
+.left-button, #work-img-slide > section, .right-button {
+  height: 100%;
+}
+
+#work-img-slide>.left-button, #work-img-slide>.right-button {
+  width: 10%;
+  font-size: 35px;
+  color: var(--color-gray-2);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#work-process {
+  width:48%;
+  height:5%;
+  bottom:9%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#work-process > section {
+  width: 15%;
+  height: 100%;
+  background-color:var(--color-orange-1);
+  border-radius: 5px;
+  border: #fff 3px solid;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--color-gray-2);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Poppins';
+}
+
+.contact-stamp-3 {
+  width: 150px;
+  height: 150px;
+  background-image: url('/img/contact-stamp.png');
+  background-size: cover;
+  position: absolute;
+
+  right: 11%;
+  bottom: 15%;
+  transform: rotate(-20deg);
+
+  display: none;
+}
+
+.wp-toyproject-sticker-1 {
+  width: 150px;
+  height: 150px;
+  background-image: url("/img/스티커/만두-스티커-원형-메롱.png");
+
+  left: 8%;
+  top: 30%;
+  transform: rotate(-5deg);
+}
+
+.wp-toyproject-sticker-2 {
+  width: 90px;
+  height: 90px;
+  background-image: url("/img/스티커/만두-스티커-기본.png");
+
+  left: 13%;
+  top: 40%;
+  transform: rotate(7deg);
+}
+
+.wp-toyproject-sticker-3 {
+  width: 70px;
+  height: 60px;
+  background-image: url("/img/스티커/하트-스티커-3.png");
+
+  left: 17.5%;
+  bottom:27%;
+  transform: rotate(-30deg);
+}
+
+.toyproject-display-1, .toyproject-display-2 {
+  width: 80%;
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.toyproject-display-1, .toyproject-display-2 {
+  width: 80%;
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.toyproject-display-1 {
+  background-image: url('/img/목업/목업-토이프로젝트-메인.png');
+}
+
+.toyproject-display-2 {
+  background-image: url('/img/목업/목업-토이프로젝트-PC-1.png');
+}

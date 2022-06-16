@@ -1,0 +1,112 @@
+/* start page2 */
+#start-2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 221, 189, 1);
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+
+  opacity: 0;
+}
+
+#start-2 > .my-photo {
+  width: 320px;
+  height: 400px;
+  background-image: url('/img/김주은-누끼.png');
+  background-size: cover;
+  position: absolute;
+  left: 40%;
+}
+
+#start-2 > .my-photo:hover {
+  cursor: pointer;
+}
+
+#start-2 > .start-speech-bubble {
+width: 160px;
+height: 160px;
+background-image: url('/img/speech-bubble.png');
+background-size: cover;
+position: absolute;
+top: 18%;
+right: 38%;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#start-2 > .start-speech-bubble > p {
+  font-family: 'Gamja Flower';
+  text-align: center;
+  color: #333;
+  font-size: 22px;
+}
+
+#start-2 > .portfolio-text {
+width: 75%;
+height: 40%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+#start-2 > .portfolio-text > h2 {
+width: 100%;
+display: flex;
+justify-content: flex-end;
+}
+
+#start-2 > .portfolio-text > h1, #start-2 > .portfolio-text > h2 {
+font-size: 30px;
+font-weight: lighter;
+color: rgba(255, 162, 75, 1);
+}
+
+#start-2 > .portfolio-text > .portfolio {
+font-family: 'Poppins';
+width: 100%;
+height: 50%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+#start-2 > .portfolio-text > .portfolio > h1, #start-2 > .portfolio-text > .portfolio > h2 {
+font-size: 230px;
+font-family: 'Lilita One';
+color: var(--color-orange-1);
+-webkit-text-stroke: 1.5px var(--color-orange-3);
+letter-spacing: -7px;
+}
+
+#start-2 > .arrow-1, #start-2 > h1 {
+display: none;
+}
+
+#start-2 > .arrow-1 {
+width: 27px;
+height: 50px;
+background-image: url("/img/arrow-1.png");
+background-size: cover;
+position: absolute;
+
+bottom: 25%;
+right: 45%;
+}
+
+#start-2 > h1 {
+font-size: 20px;
+font-weight: lighter;
+color: var(--color-orange-2);
+position:absolute;
+
+bottom: 23%;
+right: 46%;
+transform: rotate(-10deg);
+}
+/* start page2 */

@@ -1,0 +1,162 @@
+/* work-page-bubbleroom */
+#work-page-bubbleroom {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f0f0;
+  
+  display: none;
+  align-items: center;
+  justify-content: center;
+  opacity : 0;
+}
+
+.arrow-sticker,#work-process > section,#work-img-slide>.left-button, #work-img-slide>.right-button,.contact-stamp-2:hover {
+  cursor: pointer;
+}
+
+.arrow-sticker, .bubbleroom-memo-2, #work-img-slide, #work-process, .wp-bubbleroom-sticker-1, .wp-bubbleroom-sticker-2 {
+  position: absolute;
+  background-size: cover;
+}
+
+.arrow-sticker {
+  width: 150px;
+  height: 60px;
+  background-image: url('/img/뒤로가기-화살표.png');
+  transform: rotate(3deg);
+  
+  left:1%;
+  top:2%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-sticker > h1 {
+  font-size: 15px;
+  color: #f0f0f0;
+}
+
+.bubbleroom-memo-2 {
+  width: 140px;
+  height: 144px;
+  background-image: url('/img/버블룸-메모지-그림자제거.png');
+  transform: rotate(2deg);
+  
+  top:-3.5%;
+}
+
+.left-button, #work-img-slide > section, .right-button {
+  height: 100%;
+}
+
+#work-img-slide>.left-button, #work-img-slide>.right-button {
+  width: 10%;
+  font-size: 35px;
+  color: var(--color-gray-2);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#work-process {
+  width:48%;
+  height:5%;
+  bottom:9%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#work-process > section {
+  width: 15%;
+  height: 100%;
+  background-color:var(--color-orange-1);
+  border-radius: 5px;
+  border: #fff 3px solid;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--color-gray-2);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Poppins';
+}
+
+.contact-stamp-2 {
+  width: 150px;
+  height: 150px;
+  background-image: url('/img/contact-stamp.png');
+  background-size: cover;
+  position: absolute;
+
+  right: 11%;
+  bottom: 15%;
+  transform: rotate(-20deg);
+
+  display: none;
+}
+
+.wp-bubbleroom-sticker-1 {
+  width: 140px;
+  height: 140px;
+  background-image: url("/img/스티커/버블룸-스티커-원형.png");
+
+  left: 7%;
+  top: 27%;
+  transform: rotate(-5deg);
+}
+
+.wp-bubbleroom-sticker-2 {
+  width: 160px;
+  height: 70px;
+  background-image: url("/img/스티커/버블룸-스티커-타원형-2.png");
+
+  left: 11%;
+  top: 38%;
+  transform: rotate(5deg);
+}
+
+.bubbleroom-display-1, .bubbleroom-display-2, .bubbleroom-display-3, .bubbleroom-display-4, .bubbleroom-display-5, .bubbleroom-display-6, .bubbleroom-display-7,.bubbleroom-display-8 {
+  width: 80%;
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.bubbleroom-display-1 {
+  background-image: url('/img/목업/목업-버블룸-메인.png');
+}
+
+.bubbleroom-display-2 {
+  background-image: url('/img/목업/목업-PC-버블룸-1.png');
+}
+
+.bubbleroom-display-3 {
+  background-image: url('/img/목업/목업-버블룸-폰-1.png');
+}
+
+.bubbleroom-display-4 {
+  background-image: url('/img/목업/목업-버블룸-폰-2.png');
+}
+
+.bubbleroom-display-5 {
+  background-image: url('/img/목업/목업-버블룸-폰-가로형-1.png');
+}
+
+.bubbleroom-display-6 {
+  background-image: url('/img/목업/목업-버블룸-폰-가로형-2.png');
+}
+
+.bubbleroom-display-7 {
+  background-image: url('/img/목업/목업-태블릿-버블룸-1.png');
+}
+
+.bubbleroom-display-8 {
+  background-image: url('/img/목업/목업-태블릿-버블룸-2.png');
+}

@@ -1,0 +1,122 @@
+/* contact-page */
+#contact-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-orange-1);
+  background-size: cover;
+  
+  display: none;
+  align-items: center;
+  justify-content: center;
+  opacity : 0;
+}
+
+#note-board-2 {
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+  background-image: url('/img/종이-이미지-수정.png');
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  box-shadow: 3px 3px 10px 5px rgba(0,0,0,0.1);
+}
+
+#contact-page, .paper,#note-board-2 > h3,#note-board-2 > h4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.paper {
+  width: 60%;
+  height: 30%;
+  background-color: #fff;
+  background-size: cover;
+}
+
+.paper>h1,.paper>h2 {
+  font-family: 'Lilita One';
+  font-size: 80px;
+  color: #fff;
+  -webkit-text-stroke: 1.5px var(--color-orange-2);
+}
+
+#note-board-2 > h3, #note-board-2 > h4 {
+width: 25%;
+height: 10.5%;
+font-size: 20px;
+font-family: 'Poppins';
+
+background-size: cover;
+border-radius: 10px;
+margin-top: 30px;
+}
+
+#note-board-2 > h3, #note-board-2 > h4 {
+  background-image: url("/img/펜/펜-타원형-오렌지2.png");
+}
+
+#note-board-2 > h5 {
+  font-family: 'Poppins';
+  font-size: 15px;
+  color: var(--color-gray-1);
+
+  position: absolute;
+  bottom: 16%;
+}
+
+#note-board-2 > h5:hover {
+  cursor: pointer;
+}
+
+.github-sticker, .mail-sticker, .deco-sticker, .tape {
+  position: absolute;
+  background-size: cover;
+}
+
+.mail-sticker {
+  width: 70px;
+  height: 50px;
+  background-image: url("/img/스티커/지메일-스티커-기본.png");
+  
+  transform: rotate(-10deg);
+  top: 54%;
+  left: 39.5%;
+}
+
+.github-sticker {
+  width: 70px;
+  height: 70px;
+  background-image: url("/img/스티커/깃허브-스티커-블랙-테두리.png");
+  
+  transform: rotate(10deg);
+  bottom:23%;
+  right: 40%;
+}
+
+.deco-sticker {
+  width:140px;
+  height:100px;
+  background-image: url("/img/펜/펜-강조-오렌지2.png");
+
+  transform: rotate(10deg);
+  top:20%;
+  right:35%;
+}
+
+.tape {
+  width: 200px;
+  height: 50px;
+  background-image: url("/img/테이프-2.png");
+
+  top:20%;
+  transform: rotate(3deg);
+
+  z-index: 2;
+}
