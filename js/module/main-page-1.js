@@ -1,24 +1,22 @@
 // main page 1
 const mainPage1 = document.querySelector("#main-page");
 
-const blind = document.querySelector(".blind");
-const shadow1 = document.querySelector(".shadow-1");
-const shadow2 = document.querySelector(".shadow-2");
-const shadow3 = document.querySelector(".shadow-3");
+displayChange(myPhoto,startPage2,mainPage1);
 
-const windieMemo = document.querySelector(".windie-memo");
-const bubbleroomMemo = document.querySelector(".bubbleroom-memo");
-const toypjMemo = document.querySelector(".toyproject-memo");
+const workBox = document.querySelector("#work-box");
+const windie = workBox.children[0];
+const bubbleroom = workBox.children[1];
+const toyproject = workBox.children[2];
 
 const bling = document.querySelector('.my-photo-mini > section:nth-child(2)');
 
-const mpclick1 = document.querySelector('#main-page > #note-board >.click-1');
-const mpclick2 = document.querySelector('#main-page > #note-board >.click-2');
-const mpclick3 = document.querySelector('#main-page > #note-board >.click-3');
+const mpclick1 = document.querySelector('#main-page > #board >.click-1');
+const mpclick2 = document.querySelector('#main-page > #board >.click-2');
+const mpclick3 = document.querySelector('#main-page > #board >.click-3');
 
-const mparrow1 = document.querySelector('#main-page > #note-board >.arrow-1');
-const mparrow2 = document.querySelector('#main-page > #note-board >.arrow-2');
-const mparrow3 = document.querySelector('#main-page > #note-board >.arrow-3');
+const mparrow1 = document.querySelector('#main-page > #board >.arrow-1');
+const mparrow2 = document.querySelector('#main-page > #board >.arrow-2');
+const mparrow3 = document.querySelector('#main-page > #board >.arrow-3');
 
 let windieMemoWidth = 350;
 let windieMemoHeight = 400;
@@ -37,7 +35,6 @@ mouseleaveSmaller(windieMemo, mpclick1, mparrow1,windieMemoWidth, windieMemoHeig
 mouseleaveSmaller(bubbleroomMemo, mpclick2, mparrow2,bubbleroomMemoWidth, bubbleroomMemoHeight);
 mouseleaveSmaller(toypjMemo, mpclick3, mparrow3,toypjMemoWidth, toypjMemoHeight);
 
-displayChange(myPhoto,startPage2,mainPage1);
 
 let blingBingle = [
   {transform : 'rotate(0deg)'},
