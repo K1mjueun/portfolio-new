@@ -2,7 +2,7 @@
 const startPage2 = document.querySelector('#start-2');
 const myPhoto = document.querySelector("#start-2 > .portfolio-text > .my-photo");
 const arrow1 = document.querySelector("#start-2 > .arrow-1");
-const clickText2 = startPage2.children[3];
+const clickText2 = startPage2.children[4];
 
 shaking(myPhoto,photoMoving,photoMovingTime);
 

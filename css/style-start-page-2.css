@@ -13,6 +13,18 @@
   opacity: 0;
 }
 
+.photo-acc {
+  width: 100px;
+  height: 70px;
+  background-image: url('/img/펜/펜-강조-오렌지3.png');
+  background-size: cover;
+  position: absolute;
+
+  top: 28%;
+  right: 15%;
+  transform: rotate(10deg);
+}
+
 #start-2 > .portfolio-text > .my-photo {
   width: 230px;
   height: 280px;
