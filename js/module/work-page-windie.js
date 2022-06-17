@@ -2,13 +2,13 @@
 const wpWindie = document.querySelector("#work-page-windie");
 const backBtn1 = document.querySelector("#work-page-windie>#note-board>.arrow-sticker");
 
-displayChange(windieMemo,mainPage1,wpWindie);
+displayChange(windie,mainPage1,wpWindie);
 displayChange(backBtn1,wpWindie,mainPage1);
 
 const windieWorkProBtns = document.querySelector("#work-page-windie > #work-process");
 
 const contactStamp1 = document.querySelector(".contact-stamp-1");
-contactStamp(windieMemo,contactStamp1);
+contactStamp(windie,contactStamp1);
 
 const leftBtn1 = document.querySelector("#work-page-windie > #work-img-slide > .left-button");
 const rightBtn1 = document.querySelector("#work-page-windie > #work-img-slide > .right-button");

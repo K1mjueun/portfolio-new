@@ -2,7 +2,7 @@
 #work-page-windie {
   width: 100vw;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color:var(--color-bage-1);
   
   display: none;
   align-items: center;
@@ -10,7 +10,7 @@
   opacity : 0;
 }
 
-.arrow-sticker,#work-process > section,#work-img-slide>.left-button, #work-img-slide>.right-button,.contact-stamp-1:hover {
+.back,#work-process > section,#work-img-slide>.left-button, #work-img-slide>.right-button,.contact-stamp-1:hover {
   cursor: pointer;
 }
 
@@ -21,37 +21,15 @@
   opacity: .3;
 }
 
-.arrow-sticker, .windie-memo-2, #work-img-slide, #work-process {
+.arrow, #work-img-slide, #work-process {
   position: absolute;
   background-size: cover;
 }
 
-.arrow-sticker {
+.arrow {
   width: 150px;
   height: 60px;
-  background-image: url('/img/뒤로가기-화살표.png');
-  transform: rotate(3deg);
-  
-  left:1%;
-  top:2%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.arrow-sticker > h1 {
-  font-size: 15px;
-  color: #f0f0f0;
-}
-
-.windie-memo-2 {
-  width: 130px;
-  height: 150px;
-  background-image: url('/img/윈디-메모지-그림자제거.png');
-  transform: rotate(2deg);
-  
-  top:-5%;
+  background-image: url('/img/new-arrow.png');
 }
 
 #work-img-slide {
@@ -71,7 +49,7 @@
 #work-img-slide>.left-button, #work-img-slide>.right-button {
   width: 10%;
   font-size: 35px;
-  color: var(--color-gray-2);
+  color: var(--color-bage-3);
 
   display: flex;
   align-items: center;
@@ -91,7 +69,7 @@
 #work-process > section {
   width: 15%;
   height: 100%;
-  background-color:var(--color-orange-1);
+  background-color:var(--color-bage-1);
   border-radius: 5px;
   border: #fff 3px solid;
 
@@ -106,13 +84,14 @@
 }
 
 #work-process > section:hover {
-  background-color: var(--color-orange-2);
+  background-color: var(--color-orbrown-2);
+  color: var(--color-bage-1);
 }
 
 .contact-stamp-1 {
   width: 150px;
   height: 150px;
-  background-image: url('/img/contact-stamp.png');
+  background-image: url('/img/스티커/contact-stamp.png');
   background-size: cover;
   position: absolute;
 
@@ -123,47 +102,13 @@
   display: none;
 }
 
-.work-page-pen, .wp-windie-sticker-1, .wp-windie-sticker-2 {
-  background-size: cover;
-  position: absolute;
-  z-index: 1;
-}
-
-.work-page-pen {
-  width: 120px;
-  height: 80px;
-  background-image: url("/img/펜/펜-강조-오렌지2.png");
-
-  right: 19%;
-  top: 11%;
-  transform: rotate(20deg);
-}
-
-.wp-windie-sticker-1 {
-  width: 170px;
-  height: 50px;
-  background-image: url("/img/스티커/윈디-스티커-가로형.png");
-
-  left: 8%;
-  top: 33%;
-  transform: rotate(-5deg);
-}
-
-.wp-windie-sticker-2 {
-  width: 100px;
-  height: 100px;
-  background-image: url("/img/스티커/윈디-스티커-직사각형-1.png");
-
-  left: 12%;
-  top: 40%;
-  transform: rotate(10deg);
-}
-
 .windie-display-1,.windie-display-2,.windie-display-3,.windie-display-4,.windie-display-5{
     width: 80%;
     background-position: center;
     background-size: cover;
     background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
 }
 
 .windie-display-1 {

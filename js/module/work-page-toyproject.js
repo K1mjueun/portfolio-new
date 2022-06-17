@@ -2,13 +2,13 @@
 const wpToyproject = document.querySelector("#work-page-toyproject");
 const backBtn3 = document.querySelector("#work-page-toyproject> #note-board>.arrow-sticker");
 
-displayChange(toypjMemo,mainPage1,wpToyproject);
+displayChange(toyproject,mainPage1,wpToyproject);
 displayChange(backBtn3,wpToyproject,mainPage1);
 
 const toypjWorkProBtns = document.querySelector("#work-page-toyproject > #work-process");
 
 const contactStamp3 = document.querySelector(".contact-stamp-3");
-contactStamp(toypjMemo,contactStamp3);
+contactStamp(toyproject,contactStamp3);
 
 const leftBtn3 = document.querySelector("#work-page-toyproject > #work-img-slide > .left-button");
 const rightBtn3 = document.querySelector("#work-page-toyproject > #work-img-slide > .right-button");
