@@ -13,7 +13,7 @@ contactStamp(bubbleroom,contactStamp2);
 const leftBtn2 = document.querySelector("#work-page-bubbleroom > #work-img-slide > .left-button");
 const rightBtn2 = document.querySelector("#work-page-bubbleroom > #work-img-slide > .right-button");
 
-const imgSlideBubbleroom = document.querySelector("#work-page-bubbleroom > #work-img-slide");
+const imgSlideBubbleroom = document.querySelector("#work-page-bubbleroom > #board > #work-img-slide");
 
 const bubbleroomSlide1 = imgSlideBubbleroom.children[1];
 const bubbleroomSlide2 = imgSlideBubbleroom.children[2];
