@@ -5,7 +5,7 @@ const backBtn2 = document.querySelector("#work-page-bubbleroom>header>.back>.arr
 displayChange(bubbleroom,mainPage1,wpBubbleroom);
 displayChange(backBtn2,wpBubbleroom,mainPage1);
 
-const bubbleroomWorkProBtns = document.querySelector("#work-page-bubbleroom >  #board > #work-process");
+const bubbleroomWorkProBtns = document.querySelector("#work-page-bubbleroom > #board > #work-process");
 
 const contactStamp2 = document.querySelector(".contact-stamp-2");
 contactStamp(bubbleroom,contactStamp2);
