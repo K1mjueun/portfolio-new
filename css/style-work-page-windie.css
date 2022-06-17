@@ -2,12 +2,14 @@
 #work-page-windie {
   width: 100vw;
   height: 100vh;
-  background-color:var(--color-bage-1);
+  background-color: var(--color-bage-1);
   
   display: none;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   opacity : 0;
+
+  position: relative;
 }
 
 .back,#work-process > section,#work-img-slide>.left-button, #work-img-slide>.right-button,.contact-stamp-1:hover {
@@ -15,21 +17,31 @@
 }
 
 #work-img-slide>.left-button:hover {
-  opacity: .3;
+  opacity: .5;
 }
 #work-img-slide>.right-button:hover {
-  opacity: .3;
+  opacity: .5;
+}
+.arrow:hover {
+  opacity: .7;
 }
 
-.arrow, #work-img-slide, #work-process {
-  position: absolute;
-  background-size: cover;
+.back {
+  width: 4.5%;
+  height: 50%;
+  background-color: #fff;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .arrow {
-  width: 150px;
-  height: 60px;
+  width: 42px;
+  height: 42px;
   background-image: url('/img/new-arrow.png');
+  background-size: cover;
 }
 
 #work-img-slide {
@@ -80,12 +92,11 @@
   color: var(--color-gray-2);
   font-size: 15px;
   font-weight: bold;
-  font-family: 'Poppins';
 }
 
 #work-process > section:hover {
-  background-color: var(--color-orbrown-2);
-  color: var(--color-bage-1);
+  background-color: var(--color-bage-2);
+  color: var(--color-orbrown-2);
 }
 
 .contact-stamp-1 {
