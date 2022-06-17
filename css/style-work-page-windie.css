@@ -12,20 +12,6 @@
   position: relative;
 }
 
-.back,#work-process > section,#work-img-slide>.left-button, #work-img-slide>.right-button,.contact-stamp-1:hover {
-  cursor: pointer;
-}
-
-#work-img-slide>.left-button:hover {
-  opacity: .5;
-}
-#work-img-slide>.right-button:hover {
-  opacity: .5;
-}
-.arrow:hover {
-  opacity: .7;
-}
-
 .back {
   width: 4.5%;
   height: 50%;
@@ -42,6 +28,47 @@
   height: 42px;
   background-image: url('/img/new-arrow.png');
   background-size: cover;
+}
+
+.w-sticker-1, .w-sticker-2 {
+  background-size: cover;
+  position: absolute;
+}
+
+.w-sticker-1 {
+  width: 150px;
+  height: 45px;
+  background-image: url("/img/스티커/윈디-스티커-가로형.png");
+
+  left: -12%;
+  bottom : 15%;
+  transform: rotate(2deg);
+
+  z-index: 1;
+}
+
+.w-sticker-2 {
+  width: 82px;
+  height: 82px;
+  background-image: url("/img/스티커/윈디-스티커-직사각형-1.png");
+
+  right: 5%;
+  bottom: 20%;
+  transform: rotate(-1deg);
+}
+
+.back,#work-process > section,#work-img-slide>.left-button, #work-img-slide>.right-button,.contact-stamp-1:hover {
+  cursor: pointer;
+}
+
+#work-img-slide>.left-button:hover {
+  opacity: .5;
+}
+#work-img-slide>.right-button:hover {
+  opacity: .5;
+}
+.arrow:hover {
+  opacity: .7;
 }
 
 #work-img-slide {
