@@ -1,17 +1,17 @@
 // work-page-bubbleroom
 const wpBubbleroom = document.querySelector("#work-page-bubbleroom");
-const backBtn2 = document.querySelector("#work-page-bubbleroom>#note-board>.arrow-sticker");
+const backBtn2 = document.querySelector("#work-page-bubbleroom>header>.back>.arrow");
 
 displayChange(bubbleroom,mainPage1,wpBubbleroom);
 displayChange(backBtn2,wpBubbleroom,mainPage1);
 
-const bubbleroomWorkProBtns = document.querySelector("#work-page-bubbleroom > #work-process");
+const bubbleroomWorkProBtns = document.querySelector("#work-page-bubbleroom >  #board > #work-process");
 
 const contactStamp2 = document.querySelector(".contact-stamp-2");
 contactStamp(bubbleroom,contactStamp2);
 
-const leftBtn2 = document.querySelector("#work-page-bubbleroom > #work-img-slide > .left-button");
-const rightBtn2 = document.querySelector("#work-page-bubbleroom > #work-img-slide > .right-button");
+const leftBtn2 = document.querySelector("#work-page-bubbleroom >  #board > #work-img-slide > .left-button");
+const rightBtn2 = document.querySelector("#work-page-bubbleroom >  #board > #work-img-slide > .right-button");
 
 const imgSlideBubbleroom = document.querySelector("#work-page-bubbleroom > #board > #work-img-slide");
 
