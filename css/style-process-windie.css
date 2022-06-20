@@ -8,7 +8,7 @@
   position: relative;
 }
 
-#windie-process-page-1 > header > .introduce {
+#windie-process-page > #process-page-1 > header > .introduce {
   width: 17%;
 }
 
@@ -40,7 +40,7 @@
   transform: rotate(90deg);
 }
 
-#windie-process-page-1,#windie-process-page-2,#windie-process-page-3,#windie-process-page-4,#windie-process-page-5 {
+#process-page-1,#process-page-2,#process-page-3,#process-page-4,#process-page-5 {
   width: 100vw;
   height: 100vh;
   background-color: var(--color-bage-1);
@@ -64,7 +64,7 @@
   margin-bottom: 2.5%;
 }
 
-.windie-process-img-1, .windie-process-img-2, .windie-process-img-3, .windie-process-img-4, .windie-process-img-5 {
+.process-img-1, .process-img-2, .process-img-3, .process-img-4, .process-img-5 {
   width: 45%;
   height: 80%;
   background-size: cover;
@@ -92,23 +92,23 @@
   background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-5.png");
 } */
 
-.windie-process-img-5 > section {
+/* .windie-process-img-5 > section {
   background-image: url("/img/목업/목업-윈디-폰-1.png");
-}
+} */
 
-.windie-process-info-1, .windie-process-info-2, .windie-process-info-3, .windie-process-info-4, .windie-process-info-5 {
+.process-info-1, .process-info-2, .process-info-3, .process-info-4, .process-info-5 {
   width: 45%;
   height: 80%;
   margin-left: 2%;
 }
 
-.windie-process-info-1 > p, .windie-process-info-2 > p, .windie-process-info-3 > p, .windie-process-info-4 > p, .windie-process-info-5 > p {
+.process-info-1 > p, .process-info-2 > p, .process-info-3 > p, .process-info-4 > p, .process-info-5 > p {
   margin-top: 5%;
   color: var(--color-orbrown-1);
   font-size: 18px;
 }
 
-.windie-why, .windie-how, .windie-design, .windie-figma, .windie-mockup {
+.why, .how, .design, .figma, .mockup {
   width: fit-content;
   height: fit-content;
 
