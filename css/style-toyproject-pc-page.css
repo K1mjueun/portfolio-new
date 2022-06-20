@@ -8,36 +8,23 @@
   transition: 1s;
 }
 
-#mandoo-back > .pc-arrow-sticker {
-  width: 150px;
-  height: 60px;
-  background-image: url('/img/뒤로가기-화살표.png');
-  background-size: cover;
-  transform: rotate(6deg);
-  
-  left:1%;
+#toyproject-pc-page > .back {
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+
+  width: 60px;
+  height: 50px;
+
+  position: absolute;
+  left: 1.5%;
   top:2%;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
+  z-index: 1;
 }
 
-#mandoo-back > .pc-arrow-sticker > h1 {
-  font-size: 15px;
-  color: #f0f0f0;
+#toyproject-pc-page > .back > .arrow {
+  width: 30px;
+  height: 30px;
 }
-
-#mandoo-back > .pc-arrow-sticker {
-  cursor: pointer;
-}
-
-#toyproject-pc-page > .pc-top-sticker > h1 {
-  font-size: 16px;
-  color: var(--color-orange-2);
-}
-
 
 
 
