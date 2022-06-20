@@ -2,9 +2,9 @@
 const windieProPage = document.querySelector('#windie-process-page');
 displayChange(windieWorkProBtns.children[0],wpWindie,windieProPage);
 
-const windieTopBtn = document.querySelector("#windie-process-page > #windie-process-page-5 > #note-board > .top-sticker");
+const windieTopBtn = document.querySelector("#windie-process-page > #windie-process-page-5 > #board > .top-sticker");
 
-const windieProbackBtn = document.querySelector("#windie-process-page > #windie-process-page-1 > #note-board > .process-arrow-sticker");
+const windieProbackBtn = document.querySelector("#windie-process-page > #windie-process-page-1 > #board > .process-back");
 displayChange(windieProbackBtn,windieProPage,wpWindie);
 // 뒤로가기
 
