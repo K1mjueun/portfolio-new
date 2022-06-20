@@ -72,8 +72,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  border: red 1px solid;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
 }
 
 /* .windie-process-img-1 {
@@ -92,15 +92,6 @@
   background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-5.png");
 } */
 
-.windie-process-img-1 > section, .windie-process-img-2 > section, .windie-process-img-3 > section, .windie-process-img-4 > section, .windie-process-img-5 > section {
-  width: 85%;
-  height: 80%;
-  background-size: cover;
-  background-position: center;
-
-  background-color: var(--color-bage-2);
-}
-
 .windie-process-img-5 > section {
   background-image: url("/img/목업/목업-윈디-폰-1.png");
 }
@@ -109,23 +100,25 @@
   width: 45%;
   height: 80%;
   margin-left: 2%;
-  border: red 1px solid;
+}
+
+.windie-process-info-1 > p, .windie-process-info-2 > p, .windie-process-info-3 > p, .windie-process-info-4 > p, .windie-process-info-5 > p {
+  margin-top: 5%;
+  color: var(--color-orbrown-1);
+  font-size: 18px;
 }
 
 .windie-why, .windie-how, .windie-design, .windie-figma, .windie-mockup {
-  width: 130px;
-  height: 50px;
-  border-radius: 100%;
-  background-color: #F25D50;
-  border: 4px solid #2D2D2D;
+  width: fit-content;
+  height: fit-content;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  color: #f0f0f0;
-  font-size: 20px;
+  color: var(--color-orbrown-2);
+  font-size: 40px;
   font-family: 'Gochi Hand', cursive;
-  font-weight: bold;
+  font-weight: normal;
 }
 
