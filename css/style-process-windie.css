@@ -8,45 +8,24 @@
   position: relative;
 }
 
-#windie-process-page-1 > #board, #windie-process-page-2 > #board,#windie-process-page-3 > #board,
-#windie-process-page-4 > #board,
-#windie-process-page-5 > #board{
-  width: 95%;
-  height: 80%;
-  border-radius: 20px;
-  background-color: #fff;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+#windie-process-page-1 > header > .introduce {
+  width: 17%;
 }
 
-.process-back {
-  width: 70px;
-  height: 67px;
-  background-color: var(--color-bage-1);
-  border-radius: 10px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.process-back,.top-arrow:hover {
+.top-arrow:hover {
   cursor: pointer;
   opacity: .7;
 }
 
 .top-sticker {
-  width: 70px;
-  height: 67px;
+  width: 85px;
+  height: 75px;
   border-radius: 10px;
-  background-color: var(--color-bage-1);
+  background-color: var(--color-white-1);
   
   position: absolute;
-  right:1%;
-  bottom:1%;
+  right:2.5%;
+  bottom:.5%;
 
   display: flex;
   align-items: center;
@@ -69,20 +48,35 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
-/* .windie-process-img-1, .windie-process-img-2, .windie-process-img-3, .windie-process-img-4, .windie-process-img-5 {
+#process-board {
+  width: 95%;
+  height: 80%;
+  border-radius: 20px;
+  background-color: var(--color-white-1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 2.5%;
+}
+
+.windie-process-img-1, .windie-process-img-2, .windie-process-img-3, .windie-process-img-4, .windie-process-img-5 {
   width: 45%;
-  height: 81%;
-  margin-top: -1%;
+  height: 80%;
   background-size: cover;
 
   display: flex;
   align-items: center;
   justify-content: center;
-} */
 
-.windie-process-img-1 {
+  border: red 1px solid;
+}
+
+/* .windie-process-img-1 {
   background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-1.png");
 }
 .windie-process-img-2 {
@@ -96,16 +90,15 @@
 }
 .windie-process-img-5 {
   background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-5.png");
-}
+} */
 
 .windie-process-img-1 > section, .windie-process-img-2 > section, .windie-process-img-3 > section, .windie-process-img-4 > section, .windie-process-img-5 > section {
   width: 85%;
   height: 80%;
-  margin-top: 6%;
-  margin-left: 2%;
   background-size: cover;
   background-position: center;
-  background-color: gray;
+
+  background-color: var(--color-bage-2);
 }
 
 .windie-process-img-5 > section {
@@ -115,7 +108,6 @@
 .windie-process-info-1, .windie-process-info-2, .windie-process-info-3, .windie-process-info-4, .windie-process-info-5 {
   width: 45%;
   height: 80%;
-  margin-top: 1%;
   margin-left: 2%;
   border: red 1px solid;
 }
