@@ -18,69 +18,57 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  position: relative;
 
-  background-color: #f0f0f0;
+  background-color: #F2F1F6;
 }
 
-#bubbleroom-mobile-page-1 >#note-board>.mobile-arrow-sticker {
-  width: 150px;
-  height: 60px;
-  background-image: url('/img/뒤로가기-화살표.png');
-  background-size: cover;
-  transform: rotate(6deg);
-  
-  left:1%;
+#bubbleroom-mobile-page > .back, #bubbleroom-mobile-page > .top-sticker {
+  position: absolute;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+
+#bubbleroom-mobile-page > .back {
+  width: 60px;
+  height: 50px;
+
+  left: 1.5%;
   top:2%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
 }
 
-#bubbleroom-mobile-page-1 >#note-board>.mobile-arrow-sticker > h1 {
-  font-size: 15px;
-  color: #f0f0f0;
-}
+#bubbleroom-mobile-page > .top-sticker {
+  width: 60px;
+  height: 50px;
 
-#bubbleroom-mobile-page-1 >#note-board>.mobile-arrow-sticker,#bubbleroom-mobile-page-2>#note-board>.mobile-top-sticker:hover {
-  cursor: pointer;
-}
-
-#bubbleroom-mobile-page-2 >#note-board>.mobile-top-sticker {
-  width: 150px;
-  height: 60px;
-  border-radius: 100%;
-  background-color: #f0f0f0;
-  border: var(--color-orange-2) 4px solid;
-  transform: rotate(-10deg);
-  
-  position: absolute;
-  right:1%;
+  right: 1.5%;
   bottom:2%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-#bubbleroom-mobile-page-2 >#note-board>.mobile-top-sticker > h1 {
-  font-size: 16px;
-  color: var(--color-orange-2);
+#bubbleroom-mobile-page > .back > .arrow, #bubbleroom-mobile-page > .top-sticker > .top-arrow {
+  width: 30px;
+  height: 30px;
 }
+
+
+
+
+
+
+
 
 /* 작동하는 버블룸 모바일 화면 */
+#bubbleroom-mobile-vertical, #bubbleroom-mobile-horizontal {
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+}
+
 #bubbleroom-mobile-vertical {
   width: 342px;
   height: 740px;
-  border-radius: 30px;
-  background-color: #fff;
 }
 
 #bubbleroom-mobile-horizontal {
   width: 740px;
   height: 342px;
-  border-radius: 30px;
-  background-color: #fff;
 }
