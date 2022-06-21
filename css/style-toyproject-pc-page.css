@@ -5,7 +5,9 @@
   display: none;
   opacity : 0;
   position: relative;
+
   transition: 1s;
+  font-family: 'Gamja Flower', cursive !important;
 }
 
 #toyproject-pc-page > .app-back {
@@ -23,7 +25,6 @@
   height: 100vh;
   border-radius: 10px;
   background-color: #fff;
-  font-family: 'Gamja Flower', 'cursive';
 }
 
 #mandoo-back {
