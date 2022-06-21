@@ -12,41 +12,14 @@
 }
 
 #bubbleroom-mobile-page-1, #bubbleroom-mobile-page-2 {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 
   background-color: #F2F1F6;
-}
-
-#bubbleroom-mobile-page > .back, #bubbleroom-mobile-page > .top-sticker {
-  position: absolute;
-  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-  z-index: 1;
-}
-
-#bubbleroom-mobile-page > .back {
-  width: 60px;
-  height: 50px;
-
-  left: 1.5%;
-  top:2%;
-}
-
-#bubbleroom-mobile-page > .top-sticker {
-  width: 60px;
-  height: 50px;
-
-  right: 1.5%;
-  bottom:2%;
-}
-
-#bubbleroom-mobile-page > .back > .arrow, #bubbleroom-mobile-page > .top-sticker > .top-arrow {
-  width: 30px;
-  height: 30px;
 }
 
 
