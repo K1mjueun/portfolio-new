@@ -1,17 +1,14 @@
-@charset "UTF-8";
 /* work-page-toyproject */
 #work-page-toyproject {
   width: 100vw;
   height: 100vh;
   background-color: var(--color-bage-1);
+  
   display: none;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  opacity: 0;
+  align-items: flex-start;
+  justify-content: center;
+  opacity : 0;
+
   position: relative;
 }
 
@@ -24,10 +21,11 @@
   width: 80px;
   height: 80px;
   background-image: url("/img/스티커/만두-스티커-메롱.png");
+
   left: 2%;
-  bottom: 10%;
-  -webkit-transform: rotate(15deg);
-          transform: rotate(15deg);
+  bottom : 10%;
+  transform: rotate(15deg);
+
   z-index: 1;
 }
 
@@ -35,34 +33,34 @@
   width: 110px;
   height: 110px;
   background-image: url("/img/스티커/만두-스티커-원형-기본.png");
+
   right: 8%;
   bottom: 11%;
-  -webkit-transform: rotate(-2deg);
-          transform: rotate(-2deg);
+  transform: rotate(-2deg);
 }
 
 .contact-stamp-3 {
   width: 150px;
   height: 150px;
-  background-image: url("/img/스티커/contact-stamp.png");
+  background-image: url('/img/스티커/contact-stamp.png');
   background-size: cover;
   position: absolute;
+
   right: 6%;
   bottom: 13%;
-  -webkit-transform: rotate(-20deg);
-          transform: rotate(-20deg);
+  transform: rotate(-20deg);
+
   display: none;
 }
 
-.toyproject-display-1, .toyproject-display-2 {
-  width: 80%;
-  background-position: center;
-  background-size: cover;
-  background-position: center;
-  background-color: #fff;
-  border-radius: 20px;
-  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+.toyproject-display-1,.toyproject-display-2 {
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
 }
 
 .toyproject-display-1 {
@@ -72,4 +70,3 @@
 .toyproject-display-2 {
   background-image: url("/img/목업/목업-토이프로젝트-PC-1.png");
 }
-/*# sourceMappingURL=style-work-page-toyproject.css.map */

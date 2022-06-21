@@ -1,0 +1,90 @@
+/* start page2 */
+#start-2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-bage-1);
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  position: relative;
+  opacity: 0;
+
+  .photo-acc {
+    width: 100px;
+    height: 70px;
+    background-image: url('/img/펜/펜-강조-오렌지3.png');
+    background-size: cover;
+    position: absolute;
+  
+    top: 28%;
+    right: 15%;
+    transform: rotate(10deg);
+  }
+
+  .portfolio-text {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-size: 250px;
+      font-weight: normal;
+      color: var(--color-orbrown-2);
+    }
+
+    .my-photo {
+      width: 230px;
+      height: 280px;
+      background-image: url('/img/김주은-누끼.png');
+      background-size: cover;
+      margin-left: 2%;
+    }
+    
+    .my-photo:hover {
+      cursor: pointer;
+    }
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: var(--color-orbrown-2);
+    position: absolute;
+    right: 30%;
+    bottom: 35%;
+  }
+
+  .arrow-1, h1 {
+    display: none;
+    }
+
+    .arrow-1 {
+      width: 27px;
+      height: 50px;
+      background-image: url("/img/펜/arrow-1.png");
+      background-size: cover;
+      position: absolute;
+      opacity: .5;
+      
+      bottom: 30%;
+      right: 18%;
+      }
+
+      h1 {
+        font-size: 25px;
+        font-weight: lighter;
+        color: var(--color-orbrown-1);
+        position:absolute;
+        opacity: .7;
+        
+        bottom: 25%;
+        right: 18%;
+        transform: rotate(-10deg);
+        }
+}
+/* start page2 */

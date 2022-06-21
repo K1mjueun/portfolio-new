@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AAAA,6BAA6B;AAC7B,AAAA,wBAAwB,CAAC;EACvB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,OAAO,EAAG,CAAC;EACX,cAAc,EAAE,MAAM;EACtB,QAAQ,EAAE,QAAQ;CAKnB;;AAXD,AAQE,wBARsB,CAQtB,eAAe,GAAG,MAAM,GAAG,UAAU,CAAC;EACpC,KAAK,EAAE,GAAG;CACX;;AAGH;;;;;;;;;;;;;;IAcI;AAEJ;;IAEI",
+    "sources": [
+        "style-process-bubbleroom.scss"
+    ],
+    "names": [],
+    "file": "style-process-bubbleroom.css"
+}

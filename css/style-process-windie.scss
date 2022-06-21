@@ -1,0 +1,124 @@
+/* windie-process-page */
+#windie-process-page {
+  width: 100vw;
+  height: 500vh;
+  display: none;
+  opacity : 0;
+  flex-direction: column;
+  position: relative;
+
+  #process-page-1 > header > .introduce {
+    width: 17%;
+  }
+}
+
+.top-arrow:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+.top-sticker {
+  width: 85px;
+  height: 75px;
+  border-radius: 10px;
+  background-color: var(--color-white-1);
+  
+  position: absolute;
+  right:2.5%;
+  bottom:.5%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-arrow {
+  width: 42px;
+  height: 42px;
+  background-image: url('/img/new-arrow.png');
+  background-size: cover;
+  transform: rotate(90deg);
+}
+
+#process-page-1,#process-page-2,#process-page-3,#process-page-4,#process-page-5 {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-bage-1);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#process-board {
+  width: 95%;
+  height: 80%;
+  border-radius: 20px;
+  background-color: var(--color-white-1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 2.5%;
+}
+
+.process-img-1, .process-img-2, .process-img-3, .process-img-4, .process-img-5 {
+  width: 45%;
+  height: 80%;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+}
+
+/* .windie-process-img-1 {
+  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-1.png");
+}
+.windie-process-img-2 {
+  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-2.png");
+}
+.windie-process-img-3 {
+  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-3.png");
+}
+.windie-process-img-4 {
+  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-4.png");
+}
+.windie-process-img-5 {
+  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-5.png");
+} */
+
+/* .windie-process-img-5 > section {
+  background-image: url("/img/목업/목업-윈디-폰-1.png");
+} */
+
+.process-info-1, .process-info-2, .process-info-3, .process-info-4, .process-info-5 {
+  width: 45%;
+  height: 80%;
+  margin-left: 2%;
+
+  p {
+    margin-top: 5%;
+    color: var(--color-orbrown-1);
+    font-size: 18px;
+  }
+}
+
+.why, .how, .design, .figma, .mockup {
+  width: fit-content;
+  height: fit-content;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--color-orbrown-2);
+  font-size: 40px;
+  font-family: 'Gochi Hand', cursive;
+  font-weight: normal;
+}
+

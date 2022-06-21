@@ -1,11 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-transition: .5s;
-  transition: .5s;
-}
+*{margin:0; padding:0; box-sizing: border-box; transition: .5s;}
 
 #start-1, #start-2, #main-page, #work-page-windie, #work-page-bubbleroom, #work-page-toyproject, #windie-process-page, #bubbleroom-process-page, #toyproject-process-page, #bubbleroom-pc-page, #windie-mobile-page, #bubbleroom-mobile-page, #bubbleroom-tablet-page, #contact-page {
   font-family: 'Gochi Hand', cursive;
@@ -14,4 +7,3 @@
 #toyproject-pc-page {
   font-family: 'Gamja Flower', cursive;
 }
-/*# sourceMappingURL=style-basic-set.css.map */

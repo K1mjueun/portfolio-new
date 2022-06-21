@@ -1,14 +1,17 @@
+@charset "UTF-8";
 /* work-page-windie */
 #work-page-windie {
   width: 100vw;
   height: 100vh;
   background-color: var(--color-bage-1);
-  
   display: none;
-  align-items: flex-start;
-  justify-content: center;
-  opacity : 0;
-
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
   position: relative;
 }
 
@@ -17,18 +20,22 @@
   height: 50%;
   background-color: #fff;
   border-radius: 10px;
-
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-right: 5.5%;
 }
 
 .arrow {
   width: 42px;
   height: 42px;
-  background-image: url('/img/new-arrow.png');
+  background-image: url("/img/new-arrow.png");
   background-size: cover;
 }
 
@@ -41,11 +48,10 @@
   width: 150px;
   height: 45px;
   background-image: url("/img/스티커/윈디-스티커-가로형.png");
-
   left: -12%;
-  bottom : 15%;
-  transform: rotate(2deg);
-
+  bottom: 15%;
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
   z-index: 1;
 }
 
@@ -53,100 +59,121 @@
   width: 82px;
   height: 82px;
   background-image: url("/img/스티커/윈디-스티커-직사각형-1.png");
-
   right: 5%;
   bottom: 20%;
-  transform: rotate(-1deg);
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
 }
 
-.back,#work-process > section,#work-img-slide>.left-button, #work-img-slide>.right-button,.contact-stamp-1:hover {
+.back, #work-process > section, #work-img-slide > .left-button, #work-img-slide > .right-button, .contact-stamp-1:hover {
   cursor: pointer;
 }
 
 #work-img-slide {
   width: 75%;
   height: 80%;
-  bottom:17%;
+  bottom: 17%;
   margin-bottom: 1.5%;
-
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-#work-img-slide>.left-button:hover {
+#work-img-slide section {
+  height: 100%;
+}
+
+#work-img-slide .left-button, #work-img-slide .right-button {
+  width: 10%;
+  height: 100%;
+  font-size: 35px;
+  color: var(--color-bage-2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#work-img-slide .left-button:hover {
   opacity: .5;
 }
-#work-img-slide>.right-button:hover {
+
+#work-img-slide .right-button:hover {
   opacity: .5;
 }
+
 .arrow:hover {
   opacity: .7;
 }
 
-.left-button, #work-img-slide > section, .right-button {
-  height: 100%;
-}
-
-#work-img-slide>.left-button, #work-img-slide>.right-button {
-  width: 10%;
-  font-size: 35px;
-  color: var(--color-bage-2);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 #work-process {
-  width:65%;
-  height:8%;
-
+  width: 65%;
+  height: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-#work-process > section {
+#work-process section {
   width: 15%;
   height: 100%;
-  background-color:var(--color-bage-1);
+  background-color: var(--color-bage-1);
   border-radius: 12px;
-
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: var(--color-orbrown-2);
   font-size: 25px;
 }
 
-#work-process > section:hover {
+#work-process section:hover {
   background-color: var(--color-bage-2);
 }
 
 .contact-stamp-1 {
   width: 150px;
   height: 150px;
-  background-image: url('/img/스티커/contact-stamp.png');
+  background-image: url("/img/스티커/contact-stamp.png");
   background-size: cover;
   position: absolute;
-
   right: 6%;
   bottom: 13%;
-  transform: rotate(-20deg);
-
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
   display: none;
 }
 
-.windie-display-1,.windie-display-2,.windie-display-3,.windie-display-4,.windie-display-5{
-    width: 80%;
-    background-position: center;
-    background-size: cover;
-    background-position: center;
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+.windie-display-1, .windie-display-2, .windie-display-3, .windie-display-4, .windie-display-5 {
+  width: 80%;
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .windie-display-1 {
@@ -168,3 +195,4 @@
 .windie-display-5 {
   background-image: url("/img/목업/목업-윈디-폰-가로형-2.png");
 }
+/*# sourceMappingURL=style-work-page-windie.css.map */

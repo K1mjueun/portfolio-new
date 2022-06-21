@@ -1,16 +1,18 @@
-@charset "UTF-8";
 /* toyproject-pc-page */
 #toyproject-pc-page {
   width: 100vw;
   height: 100vh;
   display: none;
-  opacity: 0;
+  opacity : 0;
   position: relative;
+
+  .app-back {
+    z-index: 1;
+  }
 }
 
-#toyproject-pc-page .app-back {
-  z-index: 1;
-}
+
+
 
 /* 작동하는 토이프로젝트 PC 화면 */
 #toyproject-pc {
@@ -24,119 +26,115 @@
 #mandoo-back {
   width: 100%;
   height: 100%;
-  background-color: #d1ecff;
+  background-color: rgb(209, 236, 255);
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
 }
 
-#mandoo-back > section {
+#mandoo-back>section {
   width: 160px;
   height: 155px;
   position: absolute;
   background-size: cover;
 }
 
-#mandoo-back > section:nth-child(1) {
+#mandoo-back>section:nth-child(1) {
   background-image: url("/toy-project/img/만두-기본+테두리.png");
   top: 8%;
   left: -2%;
 }
 
-#mandoo-back > section:nth-child(2) {
+#mandoo-back>section:nth-child(2) {
   background-image: url("/toy-project/img/만두-메롱+테두리.png");
   top: -10%;
   left: 23%;
 }
 
-#mandoo-back > section:nth-child(3) {
+#mandoo-back>section:nth-child(3) {
   background-image: url("/toy-project/img/만두-하트눈+테두리.png");
   top: 15%;
   right: 2%;
 }
 
-#mandoo-back > section:nth-child(4) {
+#mandoo-back>section:nth-child(4) {
   background-image: url("/toy-project/img/만두-화난+테두리.png");
   top: 1%;
   right: 30%;
 }
 
-#mandoo-back > section:nth-child(5) {
+#mandoo-back>section:nth-child(5) {
   background-image: url("/toy-project/img/만두-반짝눈+테두리.png");
   top: 55%;
   right: -3%;
 }
 
-#mandoo-back > section:nth-child(6) {
+#mandoo-back>section:nth-child(6) {
   background-image: url("/toy-project/img/만두-눈물+테두리.png");
   bottom: -7%;
   right: 15%;
 }
 
-#mandoo-back > section:nth-child(7) {
+#mandoo-back>section:nth-child(7) {
   background-image: url("/toy-project/img/만두-윙크+테두리.png");
   bottom: 0%;
   left: 25%;
 }
 
-#mandoo-back > section:nth-child(8) {
+#mandoo-back>section:nth-child(8) {
   background-image: url("/toy-project/img/만두-메롱+테두리.png");
   bottom: 15%;
   left: 2%;
 }
 
 /* 페이지3에 추가되는 만두 얼굴들 */
-#mandoo-back > section:nth-child(9) {
+
+#mandoo-back>section:nth-child(9) {
   background-image: url("/toy-project/img/만두-기본+테두리.png");
   bottom: 3%;
   left: 5%;
 }
 
-#mandoo-back > section:nth-child(10) {
+#mandoo-back>section:nth-child(10) {
   background-image: url("/toy-project/img/만두-하트눈+테두리.png");
   bottom: 8%;
   right: 2%;
 }
 
-#mandoo-back > section:nth-child(11) {
+#mandoo-back>section:nth-child(11) {
   background-image: url("/toy-project/img/만두-하트눈+테두리.png");
   bottom: 30%;
   left: 1%;
 }
 
-#mandoo-back > section:nth-child(12) {
+#mandoo-back>section:nth-child(12) {
   background-image: url("/toy-project/img/만두-화난+테두리.png");
   bottom: 25%;
   right: 1%;
 }
 
-#mandoo-back > section:nth-child(13) {
+#mandoo-back>section:nth-child(13) {
   background-image: url("/toy-project/img/만두-반짝눈+테두리.png");
   top: -1%;
   left: 27%;
 }
 
-#mandoo-back > section:nth-child(14) {
+#mandoo-back>section:nth-child(14) {
   background-image: url("/toy-project/img/만두-눈물+테두리.png");
   top: 40%;
   left: 0%;
 }
 
-#mandoo-back > section:nth-child(15) {
+#mandoo-back>section:nth-child(15) {
   background-image: url("/toy-project/img/만두-윙크+테두리.png");
   top: 25%;
   left: -5%;
 }
 
-#mandoo-back > section:nth-child(16) {
+#mandoo-back>section:nth-child(16) {
   background-image: url("/toy-project/img/만두-메롱+테두리.png");
   bottom: -2%;
   right: 20%;
@@ -148,31 +146,23 @@
   height: 80%;
   border-radius: 30px;
   background-color: #fff;
+
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   z-index: 1;
 }
 
 .ball {
   width: 100px;
   height: 100px;
-  background-image: url("/toy-project/img/간식볼.png");
+  background-image: url('/toy-project/img/간식볼.png');
   background-size: cover;
 }
 
-.page-1 > h1 {
+.page-1>h1 {
   color: #333;
   margin-top: 7%;
 }
@@ -183,94 +173,88 @@
   height: 80%;
   border-radius: 30px;
   background-color: #fff;
+
   position: absolute;
   display: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   z-index: 1;
 }
 
-.page-2 > section {
+.page-2>section {
   position: absolute;
   background-size: cover;
 }
 
-.page-2 > section:nth-child(1) {
+.page-2>section:nth-child(1) {
   width: 65px;
   height: 60px;
   background-image: url("/toy-project/img/하트1.png");
+
   top: 20%;
   left: 15%;
-  -webkit-transform: rotate(-25deg);
-          transform: rotate(-25deg);
+  transform: rotate(-25deg);
 }
 
-.page-2 > section:nth-child(2) {
+.page-2>section:nth-child(2) {
   width: 45px;
   height: 40px;
   background-image: url("/toy-project/img/하트2.png");
+
   top: 7%;
   left: 30%;
-  -webkit-transform: rotate(-5deg);
-          transform: rotate(-5deg);
+  transform: rotate(-5deg);
 }
 
-.page-2 > section:nth-child(3) {
+.page-2>section:nth-child(3) {
   width: 80px;
   height: 80px;
   background-image: url("/toy-project/img/하트3.png");
+
   top: 10%;
   left: 40%;
-  -webkit-transform: rotate(15deg);
-          transform: rotate(15deg);
+  transform: rotate(15deg);
 }
 
-.page-2 > section:nth-child(4) {
+.page-2>section:nth-child(4) {
   width: 80px;
   height: 80px;
   background-image: url("/toy-project/img/하트4.png");
+
   top: 40%;
   left: 7%;
-  -webkit-transform: rotate(-40deg);
-          transform: rotate(-40deg);
+  transform: rotate(-40deg);
 }
 
-.page-2 > section:nth-child(5) {
+.page-2>section:nth-child(5) {
   width: 40px;
   height: 35px;
   background-image: url("/toy-project/img/하트1.png");
+
   top: 23%;
   left: 45%;
-  -webkit-transform: rotate(35deg);
-          transform: rotate(35deg);
+  transform: rotate(35deg);
 }
 
-.page-2 > section:nth-child(6) {
+.page-2>section:nth-child(6) {
   width: 50px;
   height: 45px;
   background-image: url("/toy-project/img/하트2.png");
+
   top: 20%;
   left: 10%;
-  -webkit-transform: rotate(-25deg);
-          transform: rotate(-25deg);
+  transform: rotate(-25deg);
 }
 
-.page-2 > section:nth-child(7) {
+.page-2>section:nth-child(7) {
   width: 65px;
   height: 60px;
   background-image: url("/toy-project/img/하트4.png");
+
   top: 5%;
   left: 20%;
-  -webkit-transform: rotate(-20deg);
-          transform: rotate(-20deg);
+  transform: rotate(-20deg);
 }
 
 .photo {
@@ -286,27 +270,20 @@
 .speech-bubble {
   width: 710px;
   height: 600px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-image: url("/toy-project/img/말풍선-점선.png");
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-image: url('/toy-project/img/말풍선-점선.png');
   background-size: cover;
+
   position: absolute;
   right: 9%;
   top: 5%;
 }
 
-.speech-bubble > h1 {
+.speech-bubble>h1 {
   margin: 10px;
   font-size: 30px;
   color: #333;
@@ -315,9 +292,10 @@
 .snack-bone {
   width: 150px;
   height: 120px;
-  background-image: url("/toy-project/img/개껌.png");
+  background-image: url('/toy-project/img/개껌.png');
   background-size: cover;
   position: absolute;
+
   bottom: 15%;
   right: 25%;
 }
@@ -328,18 +306,12 @@
   height: 480vh;
   border-radius: 30px;
   background-color: #fff;
+
   position: absolute;
   display: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   z-index: 1;
 }
 
@@ -365,15 +337,9 @@
 .speech-bubble-2 {
   width: 85%;
   height: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background-size: cover;
   background-image: url("/toy-project/img/긴-말풍선-점선.png");
 }
@@ -382,13 +348,13 @@
   background-image: url("/toy-project/img/긴-말풍선-점선-꼬리아래.png");
 }
 
-.speech-bubble-1 > h1 {
+.speech-bubble-1>h1 {
   font-size: 30px;
   padding-top: 5%;
   color: #333;
 }
 
-.speech-bubble-2 > h1 {
+.speech-bubble-2>h1 {
   font-size: 30px;
   padding-bottom: 2.5%;
   color: #333;
@@ -397,19 +363,10 @@
 main {
   width: 85%;
   height: 22%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .heart-1,
@@ -419,15 +376,10 @@ main {
   width: 79px;
   height: 80px;
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
+
   font-size: 30px;
   color: #333;
 }
@@ -442,19 +394,13 @@ main {
   background-image: url("/toy-project/img/하트3.png");
 }
 
-main > article {
+main>article {
   width: 80%;
   height: 90%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .favorite-1,
@@ -488,73 +434,68 @@ main > article {
 }
 
 .favorite-1 {
-  background-image: url("/toy-project/img/만두 공놀이1.jpg");
+  background-image: url('/toy-project/img/만두\ 공놀이1.jpg');
 }
 
 .favorite-2 {
-  background-image: url("/toy-project/img/만두 개껌먹는1.jpg");
+  background-image: url('/toy-project/img/만두\ 개껌먹는1.jpg');
 }
 
 .favorite-3 {
-  background-image: url("/toy-project/img/만두 산책1.jpg");
+  background-image: url('/toy-project/img/만두\ 산책1.jpg');
 }
 
 .favorite-4 {
-  background-image: url("/toy-project/img/만두 일광욕.jpg");
+  background-image: url('/toy-project/img/만두\ 일광욕.jpg');
 }
 
 .fav-photo-1 {
-  background-image: url("/toy-project/img/만두 공놀이2.jpg");
+  background-image: url('/toy-project/img/만두\ 공놀이2.jpg');
 }
 
 .fav-photo-2 {
-  background-image: url("/toy-project/img/만두 개껌먹는2.jpg");
+  background-image: url('/toy-project/img/만두\ 개껌먹는2.jpg');
 }
 
 .fav-photo-3 {
-  background-image: url("/toy-project/img/만두 산책2.jpg");
+  background-image: url('/toy-project/img/만두\ 산책2.jpg');
 }
 
 .fav-photo-4 {
-  background-image: url("/toy-project/img/만두 이불1.jpg");
+  background-image: url('/toy-project/img/만두\ 이불1.jpg');
 }
 
 .fav-video-1 {
-  background-image: url("/toy-project/img/만두 공놀이3.jpg");
+  background-image: url('/toy-project/img/만두\ 공놀이3.jpg');
 }
 
 .fav-video-2 {
-  background-image: url("/toy-project/img/만두 개껌먹는3.jpg");
+  background-image: url('/toy-project/img/만두\ 개껌먹는3.jpg');
 }
 
 .fav-video-3 {
-  background-image: url("/toy-project/img/만두 산책3.jpg");
+  background-image: url('/toy-project/img/만두\ 산책3.jpg');
 }
 
 .fav-video-4 {
-  background-image: url("/toy-project/img/만두 이불2.jpg");
+  background-image: url('/toy-project/img/만두\ 이불2.jpg');
 }
 
 .info-1,
 .info-2,
 .info-3,
 .info-4 {
-  background-image: url("/toy-project/img/메모지2.png");
-  display: -webkit-box;
-  display: -ms-flexbox;
+  background-image: url('/toy-project/img/메모지2.png');
+
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.info-1 > p,
-.info-2 > p,
-.info-3 > p,
-.info-4 > p {
+.info-1>p,
+.info-2>p,
+.info-3>p,
+.info-4>p {
   font-size: 25px;
   color: #333;
   font-weight: bold;
@@ -567,18 +508,17 @@ main > article {
   width: 120px;
   height: 50px;
   background-size: cover;
-  -webkit-transform: rotate(-30deg);
-          transform: rotate(-30deg);
+  transform: rotate(-30deg);
 }
 
 .tape-1 {
-  background-image: url("/toy-project/img/테이프1.png");
+  background-image: url('/toy-project/img/테이프1.png');
   top: -5%;
   left: -12%;
 }
 
 .tape-2 {
-  background-image: url("/toy-project/img/테이프2.png");
+  background-image: url('/toy-project/img/테이프2.png');
   bottom: -5%;
   right: -10%;
   opacity: .5;
@@ -590,18 +530,12 @@ main > article {
   height: 480vh;
   border-radius: 30px;
   background-color: #fff;
+
   position: absolute;
   display: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   z-index: 1;
 }
 
@@ -700,51 +634,51 @@ main > article {
 }
 
 .favorite-5 {
-  background-image: url("/toy-project/img/콩순2.JPG");
+  background-image: url('/toy-project/img/콩순2.JPG');
 }
 
 .favorite-6 {
-  background-image: url("/toy-project/img/아기만두1.JPG");
+  background-image: url('/toy-project/img/아기만두1.JPG');
 }
 
 .favorite-7 {
-  background-image: url("/toy-project/img/콩만두 외출1.jpg");
+  background-image: url('/toy-project/img/콩만두\ 외출1.jpg');
 }
 
 .favorite-8 {
-  background-image: url("/toy-project/img/콩만두 잠1.JPG");
+  background-image: url('/toy-project/img/콩만두\ 잠1.JPG');
 }
 
 .fav-photo-5 {
-  background-image: url("/toy-project/img/콩만두1.JPG");
+  background-image: url('/toy-project/img/콩만두1.JPG');
 }
 
 .fav-photo-6 {
-  background-image: url("/toy-project/img/아기만두2.JPG");
+  background-image: url('/toy-project/img/아기만두2.JPG');
 }
 
 .fav-photo-7 {
-  background-image: url("/toy-project/img/콩만두 외출2.jpg");
+  background-image: url('/toy-project/img/콩만두\ 외출2.jpg');
 }
 
 .fav-photo-8 {
-  background-image: url("/toy-project/img/콩만두 잠2.JPG");
+  background-image: url('/toy-project/img/콩만두\ 잠2.JPG');
 }
 
 .fav-video-5 {
-  background-image: url("/toy-project/img/콩만두2.JPG");
+  background-image: url('/toy-project/img/콩만두2.JPG');
 }
 
 .fav-video-6 {
-  background-image: url("/toy-project/img/아기만두3.JPG");
+  background-image: url('/toy-project/img/아기만두3.JPG');
 }
 
 .fav-video-7 {
-  background-image: url("/toy-project/img/콩만두 외출3.jpg");
+  background-image: url('/toy-project/img/콩만두\ 외출3.jpg');
 }
 
 .fav-video-8 {
-  background-image: url("/toy-project/img/콩만두 잠3.JPG");
+  background-image: url('/toy-project/img/콩만두\ 잠3.JPG');
 }
 
 /* 페이지 5 */
@@ -753,91 +687,88 @@ main > article {
   height: 80%;
   border-radius: 30px;
   background-color: #fff;
+
   position: absolute;
   display: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   z-index: 1;
 }
 
-.page-5 > section {
+.page-5>section {
   position: absolute;
   background-size: cover;
   display: none;
 }
 
-.page-5 > section:nth-child(1) {
+.page-5>section:nth-child(1) {
   width: 65px;
   height: 60px;
   background-image: url("/toy-project/img/하트1.png");
+
   top: 3%;
   left: 30%;
-  -webkit-transform: rotate(-20deg);
-          transform: rotate(-20deg);
+  transform: rotate(-20deg);
 }
 
-.page-5 > section:nth-child(2) {
+.page-5>section:nth-child(2) {
   width: 45px;
   height: 40px;
   background-image: url("/toy-project/img/하트2.png");
+
   top: 7%;
   right: 43%;
-  -webkit-transform: rotate(8deg);
-          transform: rotate(8deg);
+  transform: rotate(8deg);
 }
 
-.page-5 > section:nth-child(3) {
+.page-5>section:nth-child(3) {
   width: 80px;
   height: 80px;
   background-image: url("/toy-project/img/하트3.png");
+
   top: 15%;
   left: 25%;
-  -webkit-transform: rotate(-30deg);
-          transform: rotate(-30deg);
+  transform: rotate(-30deg);
 }
 
-.page-5 > section:nth-child(4) {
+.page-5>section:nth-child(4) {
   width: 80px;
   height: 80px;
   background-image: url("/toy-project/img/하트4.png");
+
   top: 23%;
   right: 38%;
-  -webkit-transform: rotate(40deg);
-          transform: rotate(40deg);
+  transform: rotate(40deg);
 }
 
-.page-5 > section:nth-child(5) {
+.page-5>section:nth-child(5) {
   width: 40px;
   height: 35px;
   background-image: url("/toy-project/img/하트1.png");
+
   top: 15%;
   right: 38%;
-  -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
+  transform: rotate(30deg);
 }
 
-.page-5 > section:nth-child(6) {
+.page-5>section:nth-child(6) {
   width: 50px;
   height: 45px;
   background-image: url("/toy-project/img/하트2.png");
+
   top: 18%;
   left: 29%;
-  -webkit-transform: rotate(-15deg);
-          transform: rotate(-15deg);
+  transform: rotate(-15deg);
 }
 
-.page-5 > section:nth-child(7) {
+.page-5>section:nth-child(7) {
   width: 65px;
   height: 60px;
   background-image: url("/toy-project/img/하트4.png");
+
   top: 30%;
   left: 32%;
-  -webkit-transform: rotate(-40deg);
-          transform: rotate(-40deg);
+  transform: rotate(-40deg);
 }
 
 .photo-2 {
@@ -850,24 +781,24 @@ main > article {
   left: 37%;
 }
 
-.page-5 > h1,
-.page-5 > h2 {
+.page-5>h1,
+.page-5>h2 {
   display: none;
   position: absolute;
   color: #333;
   font-size: 30px;
 }
 
-.page-5 > h1 {
+.page-5>h1 {
   left: 15%;
 }
 
-.page-5 > h2 {
+.page-5>h2 {
   right: 20%;
 }
 
 /* 마우스호버 - 커서 */
 .ball, .snack-bone, .mandoo-illu-bottom, .kongsun-illu-bottom:hover {
-  cursor: pointer;
+cursor: pointer;
 }
-/*# sourceMappingURL=style-toyproject-pc-page.css.map */
+

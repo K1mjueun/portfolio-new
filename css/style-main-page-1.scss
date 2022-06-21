@@ -1,0 +1,208 @@
+/* main page 1 */
+#main-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-bage-1);
+  
+  display: none;
+  align-items: flex-start;
+  justify-content: center;
+  opacity : 0;
+
+  position: relative;
+}
+
+  header {
+  width: 95%;
+  height: 15%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sticker-box {
+width: 10%;
+height: 100%;
+
+display: flex;
+position: relative;
+}
+
+.w-sticker, .b-sticker, .t-sticker {
+  position: absolute;
+  background-size: cover;
+}
+
+.w-sticker {
+  width: 140px;
+  height: 45px;
+  background-image: url('/img/스티커/윈디-스티커-가로형.png');
+
+  top: 53%;
+  left: 52%;
+  transform: rotate(5deg);
+  z-index: 2;
+}
+
+.b-sticker {
+  width: 130px;
+  height: 55px;
+  background-image: url('/img/스티커/버블룸-스티커-타원형-2.png');
+
+  top: 10%;
+  left: 52%;
+  transform: rotate(-5deg);
+}
+
+.t-sticker {
+  width: 100px;
+  height: 100px;
+  background-image: url('/img/스티커/만두-스티커-원형-기본.png');
+  
+  left: 10%;
+  top: 10%;
+  z-index: 1;
+}
+
+.introduce {
+  width: 15%;
+  height: 50%;
+  background-color: #fff;
+  border-radius: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introduce > h1 {
+  color: var(--color-orbrown-2);
+  font-size: 47px;
+  font-weight: normal;
+}
+
+#board {
+  width: 95%;
+  height: 80%;
+  border-radius: 20px;
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  position: absolute;
+  bottom:5%;
+}
+
+#work-box {
+  width: 95%;
+  height: 60%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#text-box-1 {
+  width: 95%;
+  height: 5%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#text-box-1 > h1 {
+  color: var(--color-orbrown-2);
+  font-size: 40px;
+  font-weight: normal;
+}
+
+#text-box-2 {
+  width: 95%;
+  height: 5%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-right: 1%;
+}
+
+#text-box-2 > h1 {
+  color: var(--color-orbrown-1);
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.my-photo-mini {
+  width: 140px;
+  height: 160px;
+  background-image: url('/img/김주은-누끼.png');
+  background-size: cover;
+  position: relative;
+
+  bottom:-15%;
+  right: 3%;
+  transform: rotateY(180deg);
+
+  section:nth-child(1) {
+    width: 55px;
+    height: 20px;
+    background-image: url('/img/스티커/sunglasses.png');
+    background-size: cover;
+    position: absolute;
+  
+    right: 23.5%;
+    top:23%;
+    transform:rotate(30deg);
+  }
+
+  section:nth-child(2) {
+    width: 33.5px;
+    height: 50px;
+    background-image: url('/img/스티커/blingbling.png');
+    background-size: cover;
+    position: absolute;
+  
+    right: 0%;
+    top: 15%;
+  }
+  
+}
+
+.windie, .bubbleroom, .toyproject {
+  width: 385px;
+  height: 380px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+}
+
+.windie {
+  background-image: url("/img/윈디.png");
+}
+.bubbleroom {
+  background-image: url("/img/버블룸.png");
+}
+.toyproject {
+  background-image: url("/img/만두.png");
+}
+
+.back, .windie, .bubbleroom, .toyproject:hover {
+  cursor: pointer;
+}
+
+.back > .new-arrow:hover {
+  opacity: .5;
+}

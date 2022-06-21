@@ -1,24 +1,39 @@
+@charset "UTF-8";
 /* windie-mobile-page */
 #windie-mobile-page {
   width: 100vw;
   height: 200vh;
   display: none;
   opacity: 0;
-
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
 }
 
-#windie-mobile-page-1, #windie-mobile-page-2 {
+#windie-mobile-page #windie-mobile-page-1, #windie-mobile-page #windie-mobile-page-2 {
   width: 100%;
   height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: var(--color-white-2);
 }
 
@@ -27,25 +42,30 @@
   height: 55px;
   background-color: var(--color-white-1);
   border-radius: 10px;
-  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   right: 1.5%;
-  bottom:2%;
-
+  bottom: 2%;
   z-index: 1;
 }
 
 .app-top-arrow {
   width: 35px;
   height: 35px;
-  background-image: url('/img/new-arrow.png');
+  background-image: url("/img/new-arrow.png");
   background-size: cover;
-  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .app-top, .app-top-arrow:hover {
@@ -53,18 +73,12 @@
   opacity: .7;
 }
 
-
-
-
-
-
-
-
 /* 작동하는 윈디 모바일 화면 */
 #windie-mobile-vertical, #windie-mobile-horizontal {
   border-radius: 30px;
   background-color: #fff;
-  box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 #windie-mobile-vertical {
@@ -76,3 +90,4 @@
   width: 740px;
   height: 342px;
 }
+/*# sourceMappingURL=style-windie-mobile-page.css.map */

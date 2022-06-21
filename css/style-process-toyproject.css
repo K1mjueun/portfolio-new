@@ -1,14 +1,18 @@
+@charset "UTF-8";
 /* toyproject-process-page */
 #toyproject-process-page {
   width: 100vw;
   height: 500vh;
   display: none;
-  opacity : 0;
-  flex-direction: column;
+  opacity: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
 }
 
-#toyproject-process-page > #process-page-1 > header > .introduce {
+#toyproject-process-page #process-page-1 > header > .introduce {
   width: 17%;
 }
 
@@ -27,8 +31,7 @@
 .toyproject-process-img-5 {
   background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-5.png");
 } */
-
 /* .toyproject-process-img-5 > section {
   background-image: url("/img/목업/목업-윈디-버블룸-1.png");
 } */
-
+/*# sourceMappingURL=style-process-toyproject.css.map */
