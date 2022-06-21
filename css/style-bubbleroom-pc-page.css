@@ -12,18 +12,30 @@
   background-color: #fff;
 }
 
-#bubbleroom-pc-page > .back {
+.app-back {
+  width: 65px;
+  height: 55px;
+  background-color: var(--color-white-1);
+  border-radius: 10px;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
 
-  width: 60px;
-  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   position: absolute;
   left: 1.5%;
   top:2%;
 }
 
-#bubbleroom-pc-page > .back > .arrow {
-  width: 30px;
-  height: 30px;
+.app-arrow {
+  width: 35px;
+  height: 35px;
+  background-image: url('/img/new-arrow.png');
+  background-size: cover;
+}
+
+.app-back, .app-arrow:hover {
+  cursor: pointer;
+  opacity: .7;
 }

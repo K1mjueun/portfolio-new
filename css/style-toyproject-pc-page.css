@@ -8,26 +8,9 @@
   transition: 1s;
 }
 
-#toyproject-pc-page > .back {
-  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-
-  width: 60px;
-  height: 50px;
-
-  position: absolute;
-  left: 1.5%;
-  top:2%;
-
+#toyproject-pc-page > .app-back {
   z-index: 1;
 }
-
-#toyproject-pc-page > .back > .arrow {
-  width: 30px;
-  height: 30px;
-}
-
-
-
 
 
 
