@@ -102,10 +102,16 @@
   height: 80%;
   margin-left: 2%;
 
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
   p {
     margin-top: 5%;
     color: var(--color-orbrown-1);
-    font-size: 18px;
+    font-size: 23px;
+    font-family: 'Gowun Dodum', sans-serif;
   }
 }
 

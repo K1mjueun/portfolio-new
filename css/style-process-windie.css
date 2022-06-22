@@ -126,12 +126,26 @@
   width: 45%;
   height: 80%;
   margin-left: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .process-info-1 p, .process-info-2 p, .process-info-3 p, .process-info-4 p, .process-info-5 p {
   margin-top: 5%;
   color: var(--color-orbrown-1);
-  font-size: 18px;
+  font-size: 23px;
+  font-family: 'Gowun Dodum', sans-serif;
 }
 
 .why, .how, .design, .figma, .mockup {
