@@ -10,6 +10,46 @@
   #process-page-1 > header > .introduce {
     width: 17%;
   }
+
+  #process-page-1 {
+    #process-board {
+      .process-img-1 {
+        background-image: url("/img/기획과정/윈디 WHY.png");
+      }
+    }
+  }
+
+  #process-page-2 {
+    #process-board {
+      .process-img-2 {
+        background-image: url("/img/기획과정/윈디 HOW.png");
+      }
+    }
+  }
+
+  #process-page-3 {
+    #process-board {
+      .process-img-3 {
+        background-image: url("/img/기획과정/윈디 DESIGN.png");
+      }
+    }
+  }
+
+  #process-page-4 {
+    #process-board {
+      .process-img-4 {
+        background-image: url("/img/기획과정/윈디 FIGMA.png");
+      }
+    }
+  }
+
+  #process-page-5 {
+    #process-board {
+      .process-img-5 {
+        background-image: url("/img/목업/목업-윈디-폰-1.png");
+      }
+    }
+  }
 }
 
 .top-arrow:hover {
@@ -76,26 +116,6 @@
   border-radius: 20px;
   box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
 }
-
-/* .windie-process-img-1 {
-  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-1.png");
-}
-.windie-process-img-2 {
-  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-2.png");
-}
-.windie-process-img-3 {
-  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-3.png");
-}
-.windie-process-img-4 {
-  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-4.png");
-}
-.windie-process-img-5 {
-  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-5.png");
-} */
-
-/* .windie-process-img-5 > section {
-  background-image: url("/img/목업/목업-윈디-폰-1.png");
-} */
 
 .process-info-1, .process-info-2, .process-info-3, .process-info-4, .process-info-5 {
   width: 45%;
