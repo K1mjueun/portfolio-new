@@ -89,6 +89,7 @@
   width: 45%;
   height: 80%;
   background-size: cover;
+  background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

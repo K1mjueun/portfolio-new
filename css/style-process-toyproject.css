@@ -16,22 +16,23 @@
   width: 17%;
 }
 
-/* .toyproject-process-img-1 {
-  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-1.png");
+#toyproject-process-page #process-page-1 #process-board .process-img-1 {
+  background-image: url("/toy-project/img/만두 공놀이1.jpg");
 }
-.toyproject-process-img-2 {
-  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-2.png");
+
+#toyproject-process-page #process-page-2 #process-board .process-img-2 {
+  background-image: url("/img/기획과정/토이프로젝트 HOW.png");
 }
-.toyproject-process-img-3 {
-  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-3.png");
+
+#toyproject-process-page #process-page-3 #process-board .process-img-3 {
+  background-image: url("/img/기획과정/토이프로젝트 디자인.png");
 }
-.toyproject-process-img-4 {
-  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-4.png");
+
+#toyproject-process-page #process-page-4 #process-board .process-img-4 {
+  background-image: url("/img/기획과정/토이프로젝트 피그마.png");
 }
-.toyproject-process-img-5 {
-  background-image: url("/img/기획 과정 페이지 소스/윈디-기획-소스-5.png");
-} */
-/* .toyproject-process-img-5 > section {
-  background-image: url("/img/목업/목업-윈디-버블룸-1.png");
-} */
+
+#toyproject-process-page #process-page-5 #process-board .process-img-5 {
+  background-image: url("/img/목업/목업-토이프로젝트-PC-1.png");
+}
 /*# sourceMappingURL=style-process-toyproject.css.map */
