@@ -46,7 +46,7 @@ header {
 .w-sticker {
   width: 140px;
   height: 45px;
-  background-image: url("/img/스티커/윈디-스티커-가로형.png");
+  background-image: url("../img/스티커/윈디-스티커-가로형.png");
   top: 53%;
   left: 52%;
   -webkit-transform: rotate(5deg);
@@ -57,7 +57,7 @@ header {
 .b-sticker {
   width: 130px;
   height: 55px;
-  background-image: url("/img/스티커/버블룸-스티커-타원형-2.png");
+  background-image: url("../img/스티커/버블룸-스티커-타원형-2.png");
   top: 10%;
   left: 52%;
   -webkit-transform: rotate(-5deg);
@@ -67,7 +67,7 @@ header {
 .t-sticker {
   width: 100px;
   height: 100px;
-  background-image: url("/img/스티커/만두-스티커-원형-기본.png");
+  background-image: url("../img/스티커/만두-스티커-원형-기본.png");
   left: 10%;
   top: 10%;
   z-index: 1;
@@ -172,7 +172,7 @@ header {
 .my-photo-mini {
   width: 140px;
   height: 160px;
-  background-image: url("/img/김주은-누끼.png");
+  background-image: url("../img/김주은-누끼.png");
   background-size: cover;
   position: relative;
   bottom: -15%;
@@ -184,7 +184,7 @@ header {
 .my-photo-mini section:nth-child(1) {
   width: 55px;
   height: 20px;
-  background-image: url("/img/스티커/sunglasses.png");
+  background-image: url("../img/스티커/sunglasses.png");
   background-size: cover;
   position: absolute;
   right: 23.5%;
@@ -196,7 +196,7 @@ header {
 .my-photo-mini section:nth-child(2) {
   width: 33.5px;
   height: 50px;
-  background-image: url("/img/스티커/blingbling.png");
+  background-image: url("../img/스티커/blingbling.png");
   background-size: cover;
   position: absolute;
   right: 0%;
@@ -224,15 +224,15 @@ header {
 }
 
 .windie {
-  background-image: url("/img/윈디.png");
+  background-image: url("../img/윈디.png");
 }
 
 .bubbleroom {
-  background-image: url("/img/버블룸.png");
+  background-image: url("../img/버블룸.png");
 }
 
 .toyproject {
-  background-image: url("/img/만두.png");
+  background-image: url("../img/만두.png");
 }
 
 .back, .windie, .bubbleroom, .toyproject:hover {

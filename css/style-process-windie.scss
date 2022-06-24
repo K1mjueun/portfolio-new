@@ -14,7 +14,7 @@
   #process-page-1 {
     #process-board {
       .process-img-1 {
-        background-image: url("/img/기획과정/윈디 WHY.png");
+        background-image: url("../img/기획과정/윈디 WHY.png");
       }
     }
   }
@@ -22,7 +22,7 @@
   #process-page-2 {
     #process-board {
       .process-img-2 {
-        background-image: url("/img/기획과정/윈디 HOW.png");
+        background-image: url("../img/기획과정/윈디 HOW.png");
       }
     }
   }
@@ -30,7 +30,7 @@
   #process-page-3 {
     #process-board {
       .process-img-3 {
-        background-image: url("/img/기획과정/윈디 DESIGN.png");
+        background-image: url("../img/기획과정/윈디 DESIGN.png");
       }
     }
   }
@@ -38,7 +38,7 @@
   #process-page-4 {
     #process-board {
       .process-img-4 {
-        background-image: url("/img/기획과정/윈디 FIGMA.png");
+        background-image: url("../img/기획과정/윈디 FIGMA.png");
       }
     }
   }
@@ -46,7 +46,7 @@
   #process-page-5 {
     #process-board {
       .process-img-5 {
-        background-image: url("/img/목업/목업-윈디-폰-1.png");
+        background-image: url("../img/목업/목업-윈디-폰-1.png");
       }
     }
   }
@@ -75,7 +75,7 @@
 .top-arrow {
   width: 42px;
   height: 42px;
-  background-image: url('/img/new-arrow.png');
+  background-image: url('../img/new-arrow.png');
   background-size: cover;
   transform: rotate(90deg);
 }

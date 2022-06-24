@@ -35,7 +35,7 @@
 .arrow {
   width: 42px;
   height: 42px;
-  background-image: url("/img/new-arrow.png");
+  background-image: url("../img/new-arrow.png");
   background-size: cover;
 }
 
@@ -47,7 +47,7 @@
 .w-sticker-1 {
   width: 150px;
   height: 45px;
-  background-image: url("/img/스티커/윈디-스티커-가로형.png");
+  background-image: url("../img/스티커/윈디-스티커-가로형.png");
   left: -12%;
   bottom: 15%;
   -webkit-transform: rotate(2deg);
@@ -58,7 +58,7 @@
 .w-sticker-2 {
   width: 82px;
   height: 82px;
-  background-image: url("/img/스티커/윈디-스티커-직사각형-1.png");
+  background-image: url("../img/스티커/윈디-스티커-직사각형-1.png");
   right: 5%;
   bottom: 20%;
   -webkit-transform: rotate(-1deg);
@@ -155,7 +155,7 @@
 .contact-stamp-1 {
   width: 150px;
   height: 150px;
-  background-image: url("/img/스티커/contact-stamp.png");
+  background-image: url("../img/스티커/contact-stamp.png");
   background-size: cover;
   position: absolute;
   right: 6%;
@@ -177,22 +177,22 @@
 }
 
 .windie-display-1 {
-  background-image: url("/img/목업/목업-윈디-메인.png");
+  background-image: url("../img/목업/목업-윈디-메인.png");
 }
 
 .windie-display-2 {
-  background-image: url("/img/목업/목업-윈디-폰-1.png");
+  background-image: url("../img/목업/목업-윈디-폰-1.png");
 }
 
 .windie-display-3 {
-  background-image: url("/img/목업/목업-윈디-폰-2.png");
+  background-image: url("../img/목업/목업-윈디-폰-2.png");
 }
 
 .windie-display-4 {
-  background-image: url("/img/목업/목업-윈디-폰-가로형-1.png");
+  background-image: url("../img/목업/목업-윈디-폰-가로형-1.png");
 }
 
 .windie-display-5 {
-  background-image: url("/img/목업/목업-윈디-폰-가로형-2.png");
+  background-image: url("../img/목업/목업-윈디-폰-가로형-2.png");
 }
 /*# sourceMappingURL=style-work-page-windie.css.map */

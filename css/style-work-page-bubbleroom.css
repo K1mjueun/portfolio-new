@@ -44,7 +44,7 @@
 .b-sticker-1 {
   width: 140px;
   height: 60px;
-  background-image: url("/img/스티커/버블룸-스티커-타원형-2.png");
+  background-image: url("../img/스티커/버블룸-스티커-타원형-2.png");
   left: -12%;
   bottom: 15%;
   -webkit-transform: rotate(2deg);
@@ -55,7 +55,7 @@
 .b-sticker-2 {
   width: 90px;
   height: 90px;
-  background-image: url("/img/스티커/버블룸-스티커-원형.png");
+  background-image: url("../img/스티커/버블룸-스티커-원형.png");
   right: 7%;
   bottom: 20%;
   -webkit-transform: rotate(-2deg);
@@ -65,7 +65,7 @@
 .contact-stamp-2 {
   width: 150px;
   height: 150px;
-  background-image: url("/img/스티커/contact-stamp.png");
+  background-image: url("../img/스티커/contact-stamp.png");
   background-size: cover;
   position: absolute;
   right: 6%;
@@ -91,34 +91,34 @@
 }
 
 .bubbleroom-display-1 {
-  background-image: url("/img/목업/목업-버블룸-메인.png");
+  background-image: url("../img/목업/목업-버블룸-메인.png");
 }
 
 .bubbleroom-display-2 {
-  background-image: url("/img/목업/목업-PC-버블룸-1.png");
+  background-image: url("../img/목업/목업-PC-버블룸-1.png");
 }
 
 .bubbleroom-display-3 {
-  background-image: url("/img/목업/목업-버블룸-폰-1.png");
+  background-image: url("../img/목업/목업-버블룸-폰-1.png");
 }
 
 .bubbleroom-display-4 {
-  background-image: url("/img/목업/목업-버블룸-폰-2.png");
+  background-image: url("../img/목업/목업-버블룸-폰-2.png");
 }
 
 .bubbleroom-display-5 {
-  background-image: url("/img/목업/목업-버블룸-폰-가로형-1.png");
+  background-image: url("../img/목업/목업-버블룸-폰-가로형-1.png");
 }
 
 .bubbleroom-display-6 {
-  background-image: url("/img/목업/목업-버블룸-폰-가로형-2.png");
+  background-image: url("../img/목업/목업-버블룸-폰-가로형-2.png");
 }
 
 .bubbleroom-display-7 {
-  background-image: url("/img/목업/목업-태블릿-버블룸-1.png");
+  background-image: url("../img/목업/목업-태블릿-버블룸-1.png");
 }
 
 .bubbleroom-display-8 {
-  background-image: url("/img/목업/목업-태블릿-버블룸-2.png");
+  background-image: url("../img/목업/목업-태블릿-버블룸-2.png");
 }
 /*# sourceMappingURL=style-work-page-bubbleroom.css.map */

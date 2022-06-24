@@ -17,22 +17,22 @@
 }
 
 #bubbleroom-process-page #process-page-1 #process-board .process-img-1 {
-  background-image: url("/img/기획과정/버블룸 WHY.png");
+  background-image: url("../img/기획과정/버블룸 WHY.png");
 }
 
 #bubbleroom-process-page #process-page-2 #process-board .process-img-2 {
-  background-image: url("/img/기획과정/버블룸 HOW.png");
+  background-image: url("../img/기획과정/버블룸 HOW.png");
 }
 
 #bubbleroom-process-page #process-page-3 #process-board .process-img-3 {
-  background-image: url("/img/기획과정/버블룸 DESIGN.png");
+  background-image: url("../img/기획과정/버블룸 DESIGN.png");
 }
 
 #bubbleroom-process-page #process-page-4 #process-board .process-img-4 {
-  background-image: url("/img/기획과정/버블룸 FIGMA.png");
+  background-image: url("../img/기획과정/버블룸 FIGMA.png");
 }
 
 #bubbleroom-process-page #process-page-5 #process-board .process-img-5 {
-  background-image: url("/img/목업/목업-버블룸-메인.png");
+  background-image: url("../img/목업/목업-버블룸-메인.png");
 }
 /*# sourceMappingURL=style-process-bubbleroom.css.map */
