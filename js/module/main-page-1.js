@@ -37,3 +37,16 @@ myPhoto.addEventListener('click', function() {
       bling.animate(blingBingle,blingBingleTime);
     },500);
 });
+
+const mainStickerBox = document.querySelector("#main-page > header > .sticker-box");
+const Wsticker = mainStickerBox.children[0];
+const Bsticker = mainStickerBox.children[1];
+const Tsticker = mainStickerBox.children[2];
+
+for(i=0; i<mainStickerBox.children.length; i++) {
+  mainStickerBox.children[i].style.zIndex = 3;
+};
+
+dragNdrop(Wsticker);
+dragNdrop(Bsticker);
+dragNdrop(Tsticker);

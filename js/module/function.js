@@ -52,7 +52,7 @@ let displayAppear = [
 
   function mouseoverBigger (target, widthsize, heightsize) {
     target.addEventListener('mouseover', function() {
-      target.style.zIndex = 6;
+      target.style.zIndex = 2;
       target.style.width = (widthsize+20)+"px";
       target.style.height = (heightsize+20)+"px";
       target.style.transform = "rotate(1deg)";
@@ -186,3 +186,23 @@ let displayAppear = [
     });
   };
   //슬라이더 작동(토이프로젝트용)
+
+  function dragNdrop (target) {
+    target.addEventListener("dragstart", (event) => {
+      console.log("drag start");
+    });
+
+    target.addEventListener("drag", (event) => {
+      console.log("dragging");
+    });
+
+    target.addEventListener("dragend", (event) => {
+      let top = event.clientY;
+      let left = event.clientX;
+      target.style.top = top + "px";
+      target.style.left = left + "px";
+
+      console.log("drag finished");
+    });
+  };
+  //스티커 붙이기

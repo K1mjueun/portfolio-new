@@ -41,6 +41,10 @@
   position: absolute;
 }
 
+.b-sticker-1, .b-sticker-2:hover {
+  cursor: pointer;
+}
+
 .b-sticker-1 {
   width: 140px;
   height: 60px;

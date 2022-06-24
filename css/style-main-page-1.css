@@ -43,8 +43,12 @@ header {
   background-size: cover;
 }
 
+.w-sticker, .b-sticker, .t-sticker:hover {
+  cursor: pointer;
+}
+
 .w-sticker {
-  width: 140px;
+  width: 145px;
   height: 45px;
   background-image: url("../img/스티커/윈디-스티커-가로형.png");
   top: 53%;
@@ -56,7 +60,7 @@ header {
 
 .b-sticker {
   width: 130px;
-  height: 55px;
+  height: 57px;
   background-image: url("../img/스티커/버블룸-스티커-타원형-2.png");
   top: 10%;
   left: 52%;
