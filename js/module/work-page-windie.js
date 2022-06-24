@@ -36,6 +36,9 @@ for(i=0; i<wpwStickerBox.children.length; i++) {
 const Wsticker1 = wpwStickerBox.children[0];
 const Wsticker2 = wpwStickerBox.children[1];
 
+dragNdrop(Wsticker1);
+dragNdrop(Wsticker2);
+
 // Wsticker1.addEventListener('mousemove', (event) => {
 //   let top = event.clientX;
 //   let left = event.clientY;
@@ -49,6 +52,3 @@ const Wsticker2 = wpwStickerBox.children[1];
 //   Wsticker2.style.right = top + 'px';
 //   Wsticker2.style.top = left + 'px';
 // });
-
-dragNdrop(Wsticker1);
-dragNdrop(Wsticker2);

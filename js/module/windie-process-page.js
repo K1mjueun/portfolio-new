@@ -9,3 +9,15 @@ displayChange(windieProbackBtn,windieProPage,wpWindie);
 // 뒤로가기
 
 tothetop(windieTopBtn);
+
+const ppwStickerBox = document.querySelector("#windie-process-page > #process-page-1 > header > .sticker-box");
+
+for(i=0; i<ppwStickerBox.children.length; i++) {
+  ppwStickerBox.children[i].style.zIndex = 3;
+};
+
+const ppwWsticker1 = ppwStickerBox.children[0];
+const ppwWsticker2 = ppwStickerBox.children[1];
+
+dragNdrop(ppwWsticker1);
+dragNdrop(ppwWsticker2);
