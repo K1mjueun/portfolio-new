@@ -36,19 +36,19 @@ for(i=0; i<wpwStickerBox.children.length; i++) {
 const Wsticker1 = wpwStickerBox.children[0];
 const Wsticker2 = wpwStickerBox.children[1];
 
-// dragNdrop(Wsticker1);
-// dragNdrop(Wsticker2);
+dragNdrop(Wsticker1);
+dragNdrop(Wsticker2);
 
-Wsticker1.addEventListener('mousemove', (event) => {
-  let top = event.clientX;
-  let left = event.clientY;
-  Wsticker1.style.left = top + 'px';
-  Wsticker1.style.top = left + 'px';
-});
+// Wsticker1.addEventListener('mousemove', (event) => {
+//   let top = event.clientX;
+//   let left = event.clientY;
+//   Wsticker1.style.left = top + 'px';
+//   Wsticker1.style.top = left + 'px';
+// });
 
-Wsticker2.addEventListener('mousemove', (event) => {
-  let top = event.clientX;
-  let left = event.clientY;
-  Wsticker2.style.left = top + 'px';
-  Wsticker2.style.top = left + 'px';
-});
+// Wsticker2.addEventListener('mousemove', (event) => {
+//   let top = event.clientX;
+//   let left = event.clientY;
+//   Wsticker2.style.left = top + 'px';
+//   Wsticker2.style.top = left + 'px';
+// });

@@ -50,3 +50,7 @@ for(i=0; i<mainStickerBox.children.length; i++) {
 dragNdrop(Wsticker);
 dragNdrop(Bsticker);
 dragNdrop(Tsticker);
+
+// mouseMove(Wsticker);
+// mouseMove(Bsticker);
+// mouseMove(Tsticker);

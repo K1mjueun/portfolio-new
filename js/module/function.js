@@ -206,3 +206,13 @@ let displayAppear = [
     });
   };
   //스티커 붙이기
+
+  function mouseMove(target) {
+  target.addEventListener('mousemove', (event) => {
+  let left = event.clientX;
+  let top = event.clientY;
+  target.style.left = left + 'px';
+  target.style.top = top + 'px';
+});
+  };
+//마우스 무브..근데 안따라온다
