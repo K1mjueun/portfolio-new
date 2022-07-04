@@ -68,4 +68,4 @@ myPhoto.addEventListener('click', function() {
     };
   },2500);
 });
-//스티커 드래그해라
+//drag stickers!
