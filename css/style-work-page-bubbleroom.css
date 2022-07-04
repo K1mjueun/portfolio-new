@@ -79,10 +79,6 @@
   display: none;
 }
 
-.contact-stamp-2, .contact-stamp-3:hover {
-  cursor: pointer;
-}
-
 .bubbleroom-display-1, .bubbleroom-display-2, .bubbleroom-display-3, .bubbleroom-display-4, .bubbleroom-display-5, .bubbleroom-display-6, .bubbleroom-display-7, .bubbleroom-display-8 {
   width: 80%;
   background-position: center;
