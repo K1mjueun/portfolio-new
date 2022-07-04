@@ -24,14 +24,14 @@ toyprojectSlideControl(toyprojectSlides);
 toyprojectSlide(leftBtn3,toyprojectSlides);
 toyprojectSlide(rightBtn3,toyprojectSlides);
 
-const wptStickerBox = document.querySelector("#work-page-toyproject > header > .sticker-box");
+// const wptStickerBox = document.querySelector("#work-page-toyproject > header > .sticker-box");
 
-for(i=0; i<wptStickerBox.children.length; i++) {
-  wptStickerBox.children[i].style.zIndex = 3;
-};
+// for(i=0; i<wptStickerBox.children.length; i++) {
+//   wptStickerBox.children[i].style.zIndex = 3;
+// };
 
-const Tsticker1 = wptStickerBox.children[0];
-const Tsticker2 = wptStickerBox.children[1];
+// const Tsticker1 = wptStickerBox.children[0];
+// const Tsticker2 = wptStickerBox.children[1];
 
-dragNdrop(Tsticker1);
-dragNdrop(Tsticker2);
+// dragNdrop(Tsticker1);
+// dragNdrop(Tsticker2);

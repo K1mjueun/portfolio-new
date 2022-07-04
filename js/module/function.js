@@ -207,12 +207,18 @@ let displayAppear = [
   };
   //스티커 붙이기
 
-  function mouseMove(target) {
-  target.addEventListener('mousemove', (event) => {
-  let left = event.clientX;
-  let top = event.clientY;
-  target.style.left = left + 'px';
-  target.style.top = top + 'px';
-});
-  };
-//마우스 무브..근데 안따라온다
+//   function mouseMove(target) {
+//   target.addEventListener('mousemove', (event) => {
+//   let left = event.clientX;
+//   let top = event.clientY;
+//   target.style.left = left + 'px';
+//   target.style.top = top + 'px';
+// });
+//   };
+//마우스 무브..안따라오고 피해다님;
+
+//마우스무브나 드래그앤드롭이 다 안되는 이유는 어떤 이벤트가 다 안끝나있기 때문일 수도 있고, 특정 화면에서만 안되는거라면 그 화면의 어떤 특징 때문일 것 - console찍으면서 원인을 찾아보기
+//#board의 문제는 아님
+//#work-img-slide도 문제가 아님
+
+//removeEventListener, true/false가 필요할 수 있음

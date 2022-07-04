@@ -27,17 +27,17 @@ windieSlideControl(windieSlides);
 windieSlide(leftBtn1,windieSlides);
 windieSlide(rightBtn1,windieSlides);
 
-const wpwStickerBox = document.querySelector("#work-page-windie > header > .sticker-box");
+// const wpwStickerBox = document.querySelector("#work-page-windie > header > .sticker-box");
 
-for(i=0; i<wpwStickerBox.children.length; i++) {
-  wpwStickerBox.children[i].style.zIndex = 3;
-};
+// for(i=0; i<wpwStickerBox.children.length; i++) {
+//   wpwStickerBox.children[i].style.zIndex = 3;
+// };
 
-const Wsticker1 = wpwStickerBox.children[0];
-const Wsticker2 = wpwStickerBox.children[1];
+// const Wsticker1 = wpwStickerBox.children[0];
+// const Wsticker2 = wpwStickerBox.children[1];
 
-dragNdrop(Wsticker1);
-dragNdrop(Wsticker2);
+// dragNdrop(Wsticker1);
+// dragNdrop(Wsticker2);
 
 // Wsticker1.addEventListener('mousemove', (event) => {
 //   let top = event.clientX;

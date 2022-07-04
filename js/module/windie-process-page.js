@@ -21,3 +21,4 @@ const ppwWsticker2 = ppwStickerBox.children[1];
 
 dragNdrop(ppwWsticker1);
 dragNdrop(ppwWsticker2);
+//마우스무브나 드래그앤드롭이 다 안되는 이유는 어떤 이벤트가 다 안끝나있기 때문일 수도 있고, 특정 화면에서만 안되는거라면 그 화면의 어떤 특징 때문일 것 - console찍으면서 원인을 찾아보기

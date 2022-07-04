@@ -30,14 +30,14 @@ bubbleroomSlideControl(bubbleroomSlides);
 bubbleroomSlide(leftBtn2,bubbleroomSlides);
 bubbleroomSlide(rightBtn2,bubbleroomSlides);
 
-const wpbStickerBox = document.querySelector("#work-page-bubbleroom > header > .sticker-box");
+// const wpbStickerBox = document.querySelector("#work-page-bubbleroom > header > .sticker-box");
 
-for(i=0; i<wpbStickerBox.children.length; i++) {
-  wpbStickerBox.children[i].style.zIndex = 3;
-};
+// for(i=0; i<wpbStickerBox.children.length; i++) {
+//   wpbStickerBox.children[i].style.zIndex = 3;
+// };
 
-const Bsticker1 = wpbStickerBox.children[0];
-const Bsticker2 = wpbStickerBox.children[1];
+// const Bsticker1 = wpbStickerBox.children[0];
+// const Bsticker2 = wpbStickerBox.children[1];
 
-dragNdrop(Bsticker1);
-dragNdrop(Bsticker2);
+// dragNdrop(Bsticker1);
+// dragNdrop(Bsticker2);
