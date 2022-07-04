@@ -50,3 +50,22 @@ for(i=0; i<mainStickerBox.children.length; i++) {
 dragNdrop(Wsticker);
 dragNdrop(Bsticker);
 dragNdrop(Tsticker);
+
+const dragStickers = document.querySelector(".drag-stickers");
+
+let drag = true;
+myPhoto.addEventListener('click', function() {
+  setTimeout(function() {
+    dragStickers.style.display = "flex";
+    drag = false;
+    console.log(drag);
+
+    if(drag === false) {
+      setTimeout(function() {
+        dragStickers.style.display = "none";
+      console.log(drag);
+      },1500);
+    };
+  },2500);
+});
+//스티커 드래그해라
