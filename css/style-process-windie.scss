@@ -7,44 +7,44 @@
   flex-direction: column;
   position: relative;
 
-  #process-page-1 > header > .introduce {
+  .process-page-1 > header > .introduce {
     width: 17%;
   }
 
-  #process-page-1 {
-    #process-board {
+  .process-page-1 {
+    .process-board {
       .process-img-1 {
         background-image: url("../img/기획과정/윈디 WHY.png");
       }
     }
   }
 
-  #process-page-2 {
-    #process-board {
+  .process-page-2 {
+    .process-board {
       .process-img-2 {
         background-image: url("../img/기획과정/윈디 HOW.png");
       }
     }
   }
 
-  #process-page-3 {
-    #process-board {
+  .process-page-3 {
+    .process-board {
       .process-img-3 {
         background-image: url("../img/기획과정/윈디 DESIGN.png");
       }
     }
   }
 
-  #process-page-4 {
-    #process-board {
+  .process-page-4 {
+    .process-board {
       .process-img-4 {
         background-image: url("../img/기획과정/윈디 FIGMA.png");
       }
     }
   }
 
-  #process-page-5 {
-    #process-board {
+  .process-page-5 {
+    .process-board {
       .process-img-5 {
         background-image: url("../img/목업/목업-윈디-폰-1.png");
       }

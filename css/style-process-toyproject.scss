@@ -7,44 +7,44 @@
   flex-direction: column;
   position: relative;
 
-  #process-page-1 > header > .introduce {
+  .process-page-1 > header > .introduce {
     width: 17%;
   }
 
-  #process-page-1 {
-    #process-board {
+  .process-page-1 {
+    .process-board {
       .process-img-1 {
         background-image: url("../toy-project/img/만두 공놀이1.jpg");
       }
     }
   }
 
-  #process-page-2 {
-    #process-board {
+  .process-page-2 {
+    .process-board {
       .process-img-2 {
         background-image: url("../img/기획과정/토이프로젝트 HOW.png");
       }
     }
   }
 
-  #process-page-3 {
-    #process-board {
+  .process-page-3 {
+    .process-board {
       .process-img-3 {
         background-image: url("../img/기획과정/토이프로젝트 디자인.png");
       }
     }
   }
 
-  #process-page-4 {
-    #process-board {
+  .process-page-4 {
+    .process-board {
       .process-img-4 {
         background-image: url("../img/기획과정/토이프로젝트 피그마.png");
       }
     }
   }
 
-  #process-page-5 {
-    #process-board {
+  .process-page-5 {
+    .process-board {
       .process-img-5 {
         background-image: url("../img/목업/목업-토이프로젝트-PC-1.png");
       }

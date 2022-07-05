@@ -15,10 +15,12 @@ const rightBtn3 = document.querySelector("#work-page-toyproject > .board > .work
 
 const imgSlideToyproject = document.querySelector("#work-page-toyproject > .board > .work-img-slide");
 
+//수정수정
 const toyprojectSlide1 = imgSlideToyproject.children[1];
 const toyprojectSlide2 = imgSlideToyproject.children[2];
 
 const toyprojectSlides = [toyprojectSlide1,toyprojectSlide2];
+//수정수정
 
 toyprojectSlideControl(toyprojectSlides);
 toyprojectSlide(leftBtn3,toyprojectSlides);

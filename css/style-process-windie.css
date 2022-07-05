@@ -12,27 +12,27 @@
   position: relative;
 }
 
-#windie-process-page #process-page-1 > header > .introduce {
+#windie-process-page .process-page-1 > header > .introduce {
   width: 17%;
 }
 
-#windie-process-page #process-page-1 #process-board .process-img-1 {
+#windie-process-page .process-page-1 .process-board .process-img-1 {
   background-image: url("../img/기획과정/윈디 WHY.png");
 }
 
-#windie-process-page #process-page-2 #process-board .process-img-2 {
+#windie-process-page .process-page-2 .process-board .process-img-2 {
   background-image: url("../img/기획과정/윈디 HOW.png");
 }
 
-#windie-process-page #process-page-3 #process-board .process-img-3 {
+#windie-process-page .process-page-3 .process-board .process-img-3 {
   background-image: url("../img/기획과정/윈디 DESIGN.png");
 }
 
-#windie-process-page #process-page-4 #process-board .process-img-4 {
+#windie-process-page .process-page-4 .process-board .process-img-4 {
   background-image: url("../img/기획과정/윈디 FIGMA.png");
 }
 
-#windie-process-page #process-page-5 #process-board .process-img-5 {
+#windie-process-page .process-page-5 .process-board .process-img-5 {
   background-image: url("../img/목업/목업-윈디-폰-1.png");
 }
 
