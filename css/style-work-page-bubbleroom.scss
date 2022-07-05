@@ -54,24 +54,6 @@
   transform: rotate(-2deg);
 }
 
-.contact-stamp-2 {
-  width: 150px;
-  height: 150px;
-  background-image: url('../img/스티커/contact-stamp.png');
-  background-size: cover;
-  position: absolute;
-
-  right: 6%;
-  bottom: 13%;
-  transform: rotate(-20deg);
-
-  display: none;
-}
-
-// .contact-stamp-2, .contact-stamp-3:hover {
-//   cursor: pointer;
-// }
-
 .bubbleroom-display-1,.bubbleroom-display-2,.bubbleroom-display-3,.bubbleroom-display-4,.bubbleroom-display-5, .bubbleroom-display-6, .bubbleroom-display-7, .bubbleroom-display-8{
     width: 80%;
     background-position: center;
