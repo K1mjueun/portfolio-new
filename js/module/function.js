@@ -81,7 +81,7 @@ let displayAppear = [
   }
   //탑버튼 효과
 
-  function contactStampToLastPage(element,target) {
+  function contactStampAppear(element,target) {
     element.addEventListener('click', function() {
       setTimeout(function() {
       target.style.display="flex";
@@ -157,6 +157,7 @@ let displayAppear = [
 
   function toyprojectSlideControl(arr) {
     arr.forEach((value) => {
+      //forEach를 그냥 넘어가지 마라
       let getDatasetValue = Number(value.dataset.slideToyproject);
       if (getDatasetValue === current) {
         value.style.display = "flex";

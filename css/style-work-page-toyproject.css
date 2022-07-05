@@ -15,7 +15,7 @@
   position: relative;
 }
 
-.t-sticker-1, .t-sticker-2 {
+#work-page-toyproject .t-sticker-1, #work-page-toyproject .t-sticker-2 {
   background-size: cover;
   position: absolute;
 }

@@ -8,7 +8,7 @@ displayChange(backBtn3,wpToyproject,mainPage1);
 const toypjWorkProBtns = document.querySelector("#work-page-toyproject > .board > .work-process");
 
 const contactStamp3 = document.querySelector("#work-page-toyproject > .board > .contact-stamp");
-contactStampToLastPage(toyproject,contactStamp3);
+contactStampAppear(toyproject,contactStamp3);
 
 const leftBtn3 = document.querySelector("#work-page-toyproject > .board > .work-img-slide > .left-button");
 const rightBtn3 = document.querySelector("#work-page-toyproject > .board > .work-img-slide > .right-button");

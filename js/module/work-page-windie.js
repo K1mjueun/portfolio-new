@@ -8,7 +8,7 @@ displayChange(backBtn1,wpWindie,mainPage1);
 const windieWorkProBtns = document.querySelector("#work-page-windie > .board > .work-process");
 
 const contactStamp1 = document.querySelector("#work-page-windie > .board > .contact-stamp");
-contactStampToLastPage(windie,contactStamp1);
+contactStampAppear(windie,contactStamp1);
 
 const leftBtn1 = document.querySelector("#work-page-windie > .board > .work-img-slide > .left-button");
 const rightBtn1 = document.querySelector("#work-page-windie > .board > .work-img-slide > .right-button");

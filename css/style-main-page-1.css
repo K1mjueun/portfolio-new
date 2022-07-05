@@ -99,7 +99,7 @@ header {
   font-weight: normal;
 }
 
-#board {
+.board {
   width: 95%;
   height: 80%;
   border-radius: 20px;

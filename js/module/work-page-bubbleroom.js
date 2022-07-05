@@ -8,7 +8,7 @@ displayChange(backBtn2,wpBubbleroom,mainPage1);
 const bubbleroomWorkProBtns = document.querySelector("#work-page-bubbleroom > .board > .work-process");
 
 const contactStamp2 = document.querySelector("#work-page-bubbleroom > .board > .contact-stamp");
-contactStampToLastPage(bubbleroom,contactStamp2);
+contactStampAppear(bubbleroom,contactStamp2);
 
 const leftBtn2 = document.querySelector("#work-page-bubbleroom >  .board > .work-img-slide > .left-button");
 const rightBtn2 = document.querySelector("#work-page-bubbleroom >  .board > .work-img-slide > .right-button");

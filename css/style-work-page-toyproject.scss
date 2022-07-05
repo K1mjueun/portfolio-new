@@ -10,11 +10,11 @@
   opacity : 0;
 
   position: relative;
-}
 
-.t-sticker-1, .t-sticker-2 {
-  background-size: cover;
-  position: absolute;
+  .t-sticker-1, .t-sticker-2 {
+    background-size: cover;
+    position: absolute;
+  }
 }
 
 // .t-sticker-1, .t-sticker-2:hover {
