@@ -8,7 +8,7 @@ const windie = workBox.children[0];
 const bubbleroom = workBox.children[1];
 const toyproject = workBox.children[2];
 
-const bling = document.querySelector('.my-photo-mini > section:nth-child(2)');
+const bling = document.querySelector('#my-photo-mini > section:nth-child(2)');
 
 let AppImgWidth = 385;
 let AppImgHeight = 380;
@@ -51,7 +51,7 @@ dragNdrop(Wsticker);
 dragNdrop(Bsticker);
 dragNdrop(Tsticker);
 
-const dragStickers = document.querySelector(".drag-stickers");
+const dragStickers = document.querySelector("#drag-stickers");
 
 let drag = true;
 myPhoto.addEventListener('click', function() {

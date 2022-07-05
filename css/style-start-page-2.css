@@ -19,7 +19,7 @@
   opacity: 0;
 }
 
-#start-2 .photo-acc {
+#start-2 #photo-acc {
   width: 100px;
   height: 70px;
   background-image: url("../img/펜/펜-강조-오렌지3.png");
@@ -51,7 +51,7 @@
   color: var(--color-orbrown-2);
 }
 
-#start-2 .portfolio-text .my-photo {
+#start-2 .portfolio-text #my-photo {
   width: 230px;
   height: 280px;
   background-image: url("../img/김주은-누끼.png");
@@ -59,7 +59,7 @@
   margin-left: 2%;
 }
 
-#start-2 .portfolio-text .my-photo:hover {
+#start-2 .portfolio-text #my-photo:hover {
   cursor: pointer;
 }
 
@@ -72,11 +72,11 @@
   bottom: 35%;
 }
 
-#start-2 .arrow-1, #start-2 h1 {
+#start-2 #arrow-1, #start-2 h1 {
   display: none;
 }
 
-#start-2 .arrow-1 {
+#start-2 #arrow-1 {
   width: 27px;
   height: 50px;
   background-image: url("../img/펜/arrow-1.png");

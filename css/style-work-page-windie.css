@@ -195,39 +195,4 @@
 .windie-display-5 {
   background-image: url("../img/목업/목업-윈디-폰-가로형-2.png");
 }
-
-.drag-stickers {
-  width: 200px;
-  height: 100px;
-  display: none;
-  position: absolute;
-  top: 2%;
-  left: 15%;
-}
-
-.drag-arrow, .drag-stickers > h1 {
-  position: absolute;
-}
-
-.drag-arrow {
-  width: 20px;
-  height: 40px;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  background-size: cover;
-  background-position: center;
-  background-image: url("../img/펜/arrow-1.png");
-  top: 20%;
-  left: 15%;
-}
-
-.drag-stickers > h1 {
-  font-size: 20px;
-  font-weight: normal;
-  color: var(--color-orbrown-2);
-  top: 40%;
-  right: 15%;
-  -webkit-transform: rotate(-5deg);
-          transform: rotate(-5deg);
-}
 /*# sourceMappingURL=style-work-page-windie.css.map */

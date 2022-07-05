@@ -173,7 +173,7 @@ header {
   font-size: 25px;
 }
 
-.my-photo-mini {
+#my-photo-mini {
   width: 140px;
   height: 160px;
   background-image: url("../img/김주은-누끼.png");
@@ -185,7 +185,7 @@ header {
           transform: rotateY(180deg);
 }
 
-.my-photo-mini section:nth-child(1) {
+#my-photo-mini section:nth-child(1) {
   width: 55px;
   height: 20px;
   background-image: url("../img/스티커/sunglasses.png");
@@ -197,7 +197,7 @@ header {
           transform: rotate(30deg);
 }
 
-.my-photo-mini section:nth-child(2) {
+#my-photo-mini section:nth-child(2) {
   width: 33.5px;
   height: 50px;
   background-image: url("../img/스티커/blingbling.png");
@@ -207,7 +207,7 @@ header {
   top: 15%;
 }
 
-.windie, .bubbleroom, .toyproject {
+#windie, #bubbleroom, #toyproject {
   width: 385px;
   height: 380px;
   border-radius: 20px;
@@ -227,23 +227,58 @@ header {
           box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
-.windie {
+#windie {
   background-image: url("../img/윈디.png");
 }
 
-.bubbleroom {
+#bubbleroom {
   background-image: url("../img/버블룸.png");
 }
 
-.toyproject {
+#toyproject {
   background-image: url("../img/만두.png");
 }
 
-.back, .windie, .bubbleroom, .toyproject:hover {
+.back, #windie, #bubbleroom, #toyproject:hover {
   cursor: pointer;
 }
 
 .back > .new-arrow:hover {
   opacity: .5;
+}
+
+#drag-stickers {
+  width: 200px;
+  height: 100px;
+  display: none;
+  position: absolute;
+  top: 2%;
+  left: 15%;
+}
+
+#drag-arrow, #drag-stickers > h1 {
+  position: absolute;
+}
+
+#drag-arrow {
+  width: 20px;
+  height: 40px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/펜/arrow-1.png");
+  top: 20%;
+  left: 15%;
+}
+
+#drag-stickers > h1 {
+  font-size: 20px;
+  font-weight: normal;
+  color: var(--color-orbrown-2);
+  top: 40%;
+  right: 15%;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
 }
 /*# sourceMappingURL=style-main-page-1.css.map */

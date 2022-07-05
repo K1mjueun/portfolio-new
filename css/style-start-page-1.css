@@ -40,7 +40,7 @@
   color: var(--color-black-1);
 }
 
-#start-1 .portfolio-text .my-photo-hide {
+#start-1 .portfolio-text #my-photo-hide {
   width: 230px;
   height: 280px;
   background-image: url("../img/김주은-물음표.png");
@@ -48,15 +48,15 @@
   margin-left: 2%;
 }
 
-#start-1 .portfolio-text .my-photo-hide:hover {
+#start-1 .portfolio-text #my-photo-hide:hover {
   cursor: pointer;
 }
 
-#start-1 .arrow-gray, #start-1 h1 {
+#start-1 #arrow-gray, #start-1 h1 {
   display: none;
 }
 
-#start-1 .arrow-gray {
+#start-1 #arrow-gray {
   width: 27px;
   height: 50px;
   background-image: url("../img/펜/arrow-gray.png");
