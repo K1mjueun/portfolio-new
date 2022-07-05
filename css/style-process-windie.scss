@@ -80,7 +80,7 @@
   transform: rotate(90deg);
 }
 
-#process-page-1,#process-page-2,#process-page-3,#process-page-4,#process-page-5 {
+.process-page-1,.process-page-2,.process-page-3,.process-page-4,.process-page-5 {
   width: 100vw;
   height: 100vh;
   background-color: var(--color-bage-1);
@@ -91,7 +91,7 @@
   flex-direction: column;
 }
 
-#process-board {
+.process-board {
   width: 95%;
   height: 80%;
   border-radius: 20px;
