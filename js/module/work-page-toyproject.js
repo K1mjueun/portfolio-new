@@ -5,15 +5,15 @@ const backBtn3 = document.querySelector("#work-page-toyproject>header>.back>.arr
 displayChange(toyproject,mainPage1,wpToyproject);
 displayChange(backBtn3,wpToyproject,mainPage1);
 
-const toypjWorkProBtns = document.querySelector("#work-page-toyproject > #board > #work-process");
+const toypjWorkProBtns = document.querySelector("#work-page-toyproject > .board > .work-process");
 
-const contactStamp3 = document.querySelector(".contact-stamp-3");
+const contactStamp3 = document.querySelector("#work-page-toyproject > .board > .contact-stamp");
 contactStampToLastPage(toyproject,contactStamp3);
 
-const leftBtn3 = document.querySelector("#work-page-toyproject > #board > #work-img-slide > .left-button");
-const rightBtn3 = document.querySelector("#work-page-toyproject > #board > #work-img-slide > .right-button");
+const leftBtn3 = document.querySelector("#work-page-toyproject > .board > .work-img-slide > .left-button");
+const rightBtn3 = document.querySelector("#work-page-toyproject > .board > .work-img-slide > .right-button");
 
-const imgSlideToyproject = document.querySelector("#work-page-toyproject > #board > #work-img-slide");
+const imgSlideToyproject = document.querySelector("#work-page-toyproject > .board > .work-img-slide");
 
 const toyprojectSlide1 = imgSlideToyproject.children[1];
 const toyprojectSlide2 = imgSlideToyproject.children[2];
