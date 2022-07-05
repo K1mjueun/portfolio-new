@@ -107,17 +107,19 @@
 
 .work-img-slide .left-button:hover {
   opacity: .5;
+  cursor: pointer;
 }
 
 .work-img-slide .right-button:hover {
   opacity: .5;
+  cursor: pointer;
 }
 
 .arrow:hover {
   opacity: .7;
 }
 
-#work-process {
+.work-process {
   width: 65%;
   height: 8%;
   display: -webkit-box;
@@ -130,7 +132,7 @@
       justify-content: space-around;
 }
 
-#work-process section {
+.work-process section {
   width: 15%;
   height: 100%;
   background-color: var(--color-bage-1);
@@ -148,8 +150,9 @@
   font-size: 25px;
 }
 
-#work-process section:hover {
+.work-process section:hover {
   background-color: var(--color-bage-2);
+  cursor: pointer;
 }
 
 .contact-stamp {
