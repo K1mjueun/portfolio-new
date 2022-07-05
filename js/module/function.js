@@ -10,22 +10,22 @@ let photoMoving = [
   };
   //사진 흔들거리는 효과
 
-  function shaking (eventtarget, animation, time) {
+  function photoShaking (eventtarget, animation, time) {
   setInterval(function(){  
   eventtarget.animate(animation, time);
   },1500);
   };
   //사진 흔들거리는 효과
 
-function mouseOverLeave(element,eventtarget) {
+function mouseOverOut(element,eventtarget) {
   element.addEventListener('mouseover', function() {
     eventtarget.style.display = "flex";
   });
-  element.addEventListener('mouseleave', function() {
+  element.addEventListener('mouseout', function() {
     eventtarget.style.display = "none";
   });
 };
-//mouseover, mouseleave 했을 때 display 효과
+//mouseover, mouseout 했을 때 display 효과
 
 let displayAppear = [
   {opacity: 0.7},
@@ -81,7 +81,7 @@ let displayAppear = [
   }
   //탑버튼 효과
 
-  function contactStamp(element,target) {
+  function contactStampToLastPage(element,target) {
     element.addEventListener('click', function() {
       setTimeout(function() {
       target.style.display="flex";
