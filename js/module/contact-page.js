@@ -25,13 +25,13 @@ let banchak = [
     iterations: Infinity
   };
 
-const decoSticker = document.querySelector("#contact-page > .deco-sticker");
+const decoSticker = document.querySelector("#contact-page > #deco-sticker");
 if(contactPage.style.opacity = 1) {
     decoSticker.animate(banchak,banchakTime);
 };
 
-const emailAddress = document.querySelector(".personal-1 > h3");
-const githubAddress = document.querySelector(".personal-2 > h4");
+const emailAddress = document.querySelector("#personal-1 > h3");
+const githubAddress = document.querySelector("#personal-2 > h4");
 
 let addressMoving = [
   { transform: 'rotate(-1deg)'},

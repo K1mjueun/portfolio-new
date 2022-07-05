@@ -65,7 +65,7 @@
           transform: rotate(-1deg);
 }
 
-.back, #work-process > section, #work-img-slide > .left-button, #work-img-slide > .right-button, .contact-stamp-1:hover {
+.back, .work-process > section, .work-img-slide > .left-button, .work-img-slide > .right-button, .contact-stamp:hover {
   cursor: pointer;
 }
 
@@ -107,12 +107,10 @@
 
 .work-img-slide .left-button:hover {
   opacity: .5;
-  cursor: pointer;
 }
 
 .work-img-slide .right-button:hover {
   opacity: .5;
-  cursor: pointer;
 }
 
 .arrow:hover {
