@@ -1,5 +1,5 @@
 // work-page-windie
-const wpWindie = document.querySelector("#work-page-windie");
+const wpWindie = document.getElementById("work-page-windie");
 
 const windieSlide = {
     backBtn1 : document.querySelector("#work-page-windie>header>.back>.arrow"),

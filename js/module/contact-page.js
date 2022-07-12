@@ -1,5 +1,5 @@
 // contact page
-const contactPage = document.querySelector("#contact-page");
+const contactPage = document.getElementById("contact-page");
 contactPage.style.display ="none";
 console.log(contactPage);
 
@@ -7,7 +7,7 @@ console.log(contactPage);
 // console.log(contactStamp2);
 // console.log(contactStamp3);
 
-displayChange(contactStamp1,wpWindie,contactPage);
+displayChange(windieSlide.contactStamp1,wpWindie,contactPage);
 displayChange(contactStamp2,wpBubbleroom,contactPage);
 displayChange(contactStamp3,wpToyproject,contactPage);
 
