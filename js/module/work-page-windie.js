@@ -1,29 +1,44 @@
 // work-page-windie
-const wpWindie = document.querySelector("#work-page-windie");
-const backBtn1 = document.querySelector("#work-page-windie>header>.back>.arrow");
+// const wpWindie = document.querySelector("#work-page-windie");
+// const backBtn1 = document.querySelector("#work-page-windie>header>.back>.arrow");
 
 displayChange(windie,mainPage1,wpWindie);
 displayChange(backBtn1,wpWindie,mainPage1);
 
-const windieWorkProBtns = document.querySelector("#work-page-windie > .board > .work-process");
+// const windieWorkProBtns = document.querySelector("#work-page-windie > .board > .work-process");
 
-const contactStamp1 = document.querySelector("#work-page-windie > .board > .contact-stamp");
+// const contactStamp1 = document.querySelector("#work-page-windie > .board > .contact-stamp");
 contactStampAppear(windie,contactStamp1);
 
-const leftBtn1 = document.querySelector("#work-page-windie > .board > .work-img-slide > .left-button");
-const rightBtn1 = document.querySelector("#work-page-windie > .board > .work-img-slide > .right-button");
+// const leftBtn1 = document.querySelector("#work-page-windie > .board > .work-img-slide > .left-button");
+// const rightBtn1 = document.querySelector("#work-page-windie > .board > .work-img-slide > .right-button");
 
-const imgSlideWindie = document.querySelector("#work-page-windie > .board > .work-img-slide");
+// const imgSlideWindie = document.querySelector("#work-page-windie > .board > .work-img-slide");
 
 // 수정 필요 - 배열메서드
-const windieSlide1 = imgSlideWindie.children[1];
-const windieSlide2 = imgSlideWindie.children[2];
-const windieSlide3 = imgSlideWindie.children[3];
-const windieSlide4 = imgSlideWindie.children[4];
-const windieSlide5 = imgSlideWindie.children[5];
+// const windieSlide1 = imgSlideWindie.children[1];
+// const windieSlide2 = imgSlideWindie.children[2];
+// const windieSlide3 = imgSlideWindie.children[3];
+// const windieSlide4 = imgSlideWindie.children[4];
+// const windieSlide5 = imgSlideWindie.children[5];
 
-const windieSlides = [windieSlide1,windieSlide2,windieSlide3,windieSlide4,windieSlide5];
+// const windieSlides = [windieSlide1,windieSlide2,windieSlide3,windieSlide4,windieSlide5];
 // 수정 필요 - 배열메서드
+
+const windieSlideContainer = {
+    wpWindie : document.querySelector("#work-page-windie"),
+    backBtn1 : document.querySelector("#work-page-windie>header>.back>.arrow"),
+    windieWorkProBtns : document.querySelector("#work-page-windie > .board > .work-process"),
+    windieWorkProBtns : document.querySelector("#work-page-windie > .board > .work-process"),
+    contactStamp1 : document.querySelector("#work-page-windie > .board > .contact-stamp"),
+    leftBtn1 : document.querySelector("#work-page-windie > .board > .work-img-slide > .left-button"),
+    rightBtn1 : document.querySelector("#work-page-windie > .board > .work-img-slide > .right-button"),
+    imgSlideWindie : document.querySelector("#work-page-windie > .board > .work-img-slide"),
+
+    slide : {
+      ??
+    }
+};
 
 windieSlideControl(windieSlides);
 windieSlide(leftBtn1,windieSlides);
