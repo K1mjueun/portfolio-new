@@ -10,6 +10,8 @@
   flex-direction: column;
   position: relative;
 
+  font-family:sans-serif;
+
   #bubbleroom-mobile-page-1, #bubbleroom-mobile-page-2 {
     width: 100%;
     height: 50%;
@@ -38,20 +40,15 @@
 
   background-size: cover;
   background-position: center;
-}
-
-#bubbleroom-mobile-vertical, #bubbleroom-mobile-horizontal:hover {
-  cursor: pointer;
+  overflow: auto;
 }
 
 #bubbleroom-mobile-vertical {
   width: 342px;
   height: 740px;
-  background-image: url("../img/임시이미지/버블룸-임시이미지-모바일-세로.png");
 }
 
 #bubbleroom-mobile-horizontal {
   width: 740px;
   height: 342px;
-  background-image: url("../img/임시이미지/버블룸-임시이미지-모바일-가로.png");
 }
