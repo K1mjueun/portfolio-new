@@ -1,32 +1,7 @@
 // work-page-windie
-// const wpWindie = document.querySelector("#work-page-windie");
-// const backBtn1 = document.querySelector("#work-page-windie>header>.back>.arrow");
+const wpWindie = document.querySelector("#work-page-windie");
 
-displayChange(windie,mainPage1,wpWindie);
-displayChange(backBtn1,wpWindie,mainPage1);
-
-// const windieWorkProBtns = document.querySelector("#work-page-windie > .board > .work-process");
-
-// const contactStamp1 = document.querySelector("#work-page-windie > .board > .contact-stamp");
-contactStampAppear(windie,contactStamp1);
-
-// const leftBtn1 = document.querySelector("#work-page-windie > .board > .work-img-slide > .left-button");
-// const rightBtn1 = document.querySelector("#work-page-windie > .board > .work-img-slide > .right-button");
-
-// const imgSlideWindie = document.querySelector("#work-page-windie > .board > .work-img-slide");
-
-// 수정 필요 - 배열메서드
-// const windieSlide1 = imgSlideWindie.children[1];
-// const windieSlide2 = imgSlideWindie.children[2];
-// const windieSlide3 = imgSlideWindie.children[3];
-// const windieSlide4 = imgSlideWindie.children[4];
-// const windieSlide5 = imgSlideWindie.children[5];
-
-// const windieSlides = [windieSlide1,windieSlide2,windieSlide3,windieSlide4,windieSlide5];
-// 수정 필요 - 배열메서드
-
-const windieSlideContainer = {
-    wpWindie : document.querySelector("#work-page-windie"),
+const windieSlide = {
     backBtn1 : document.querySelector("#work-page-windie>header>.back>.arrow"),
     windieWorkProBtns : document.querySelector("#work-page-windie > .board > .work-process"),
     windieWorkProBtns : document.querySelector("#work-page-windie > .board > .work-process"),
@@ -35,14 +10,20 @@ const windieSlideContainer = {
     rightBtn1 : document.querySelector("#work-page-windie > .board > .work-img-slide > .right-button"),
     imgSlideWindie : document.querySelector("#work-page-windie > .board > .work-img-slide"),
 
-    slide : {
-      ??
+    windieSlideContainer : {
+      imgWrapper : document.getElementById("windie-slide-container"),
+      imgSlides : Array.from(document.querySelectorAll("#windie-slide-container > section"))
     }
 };
 
-windieSlideControl(windieSlides);
-windieSlide(leftBtn1,windieSlides);
-windieSlide(rightBtn1,windieSlides);
+displayChange(windie,mainPage1,wpWindie);
+displayChange(windieSlide.backBtn1,wpWindie,mainPage1);
+
+contactStampAppear(windie,windieSlide.contactStamp1);
+
+windieSlideControl(windieSlide.windieSlideContainer.imgSlides);
+windieSlide(windieSlide.leftBtn1,windieSlide.windieSlideContainer.imgSlides);
+windieSlide(windieSlide.rightBtn1,windieSlide.windieSlideContainer.imgSlides);
 
 const wpwStickerBox = document.querySelector("#work-page-windie > header > .sticker-box");
 
