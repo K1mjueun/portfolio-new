@@ -60,10 +60,10 @@ let displayAppear2 = [
   displayChange2(miniColorPickers.mvP3miniColorPicker,mvPages.mvP3,mvPages.mvP4);
 
   const mvPageBackBtns = {
-    mvPbackBtn : document.querySelector("#mv-page > header"),
-    mvP2backBtn : document.querySelector("#mv-page-2 > header"),
-    mvP3backBtn : document.querySelector("#mv-page-3 > header"),
-    mvP4backBtn : document.querySelector("#mv-page-4 > header")
+    mvPbackBtn : document.querySelector("#mv-page > aside"),
+    mvP2backBtn : document.querySelector("#mv-page-2 > aside"),
+    mvP3backBtn : document.querySelector("#mv-page-3 > aside"),
+    mvP4backBtn : document.querySelector("#mv-page-4 > aside")
   }
   displayChange2(mvPageBackBtns.mvPbackBtn,mvPages.mvP,firstPage.homeP);
   displayChange2(mvPageBackBtns.mvP2backBtn,mvPages.mvP2,mvPages.mvP);
@@ -112,9 +112,9 @@ let displayAppear2 = [
 
   const searchThings2 = {
     searchNcategoryP : document.getElementById("search-and-category-page"),
-    directorPbackBtn : document.querySelector("#director-page > header"),
-    moodPbackBtn : document.querySelector("#mood-page > header"),
-    colorPbackBtn : document.querySelector("#color-page > header")
+    directorPbackBtn : document.querySelector("#director-page > aside"),
+    moodPbackBtn : document.querySelector("#mood-page > aside"),
+    colorPbackBtn : document.querySelector("#color-page > aside")
   }
   displayChange2(searchThings2.directorPbackBtn,searchThings1.directorP,searchThings2.searchNcategoryP);
   displayChange2(searchThings2.moodPbackBtn,searchThings1.moodP,searchThings2.searchNcategoryP);
