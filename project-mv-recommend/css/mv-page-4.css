@@ -14,17 +14,14 @@
   position: relative;
 }
 
-#mv-page-4 > header {
+#mv-page-4 > aside {
   color:#d7f1dd;
+  z-index: 1;
 }
 
 #mv-page-4 > .mini-color-picker {
   background: rgb(152,243,138);
   background: linear-gradient(143deg, rgb(129, 238, 112) 0%, rgba(194,242,186,1) 100%);
-}
-
-#mv-page-4 > header {
-  z-index: 1;
 }
 
 #mv-page-4 > .mini-color-picker {

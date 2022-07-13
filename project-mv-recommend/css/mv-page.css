@@ -14,7 +14,7 @@
   position: relative;
 }
 
-header {
+aside {
   width: 100%;
   height: 10%;
   padding-left: 20px;
@@ -28,6 +28,10 @@ header {
 
   position: absolute;
   top:0;
+}
+
+aside:hover {
+  cursor: pointer;
 }
 
 .mini-color-picker {
@@ -94,8 +98,4 @@ header {
   color:#fff;
   font-size: 10px;
   font-weight: normal;
-}
-
-header:hover {
-  cursor: pointer;
 }
