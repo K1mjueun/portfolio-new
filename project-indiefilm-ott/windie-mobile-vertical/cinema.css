@@ -1,0 +1,48 @@
+
+#cinema {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-black);
+
+  display: none;
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#c-menu-box {
+  width: 265px;
+  height: 350px;
+  border-radius: 20px;
+  border: var(--color-white) solid 3px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#c-menu-box > div {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.location,.searching {
+  border-bottom: var(--color-white) solid 3px;
+}
+
+.location,.searching, .released:hover {
+  cursor: pointer;
+}
+
+.location > .number, .searching > .number, .released > .number {
+  background-color: var(--color-blue);
+}
+
