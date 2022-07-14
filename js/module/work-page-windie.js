@@ -1,7 +1,7 @@
 // work-page-windie
 const wpWindie = document.getElementById("work-page-windie");
 
-const windieSlide = {
+const windieSlides = {
     backBtn1 : document.querySelector("#work-page-windie>header>.back>.arrow"),
     windieWorkProBtns : document.querySelector("#work-page-windie > .board > .work-process"),
     windieWorkProBtns : document.querySelector("#work-page-windie > .board > .work-process"),
@@ -17,13 +17,13 @@ const windieSlide = {
 };
 
 displayChange(windie,mainPage1,wpWindie);
-displayChange(windieSlide.backBtn1,wpWindie,mainPage1);
+displayChange(windieSlides.backBtn1,wpWindie,mainPage1);
 
-contactStampAppear(windie,windieSlide.contactStamp1);
+contactStampAppear(windie,windieSlides.contactStamp1);
 
-windieSlideControl(windieSlide.windieSlideContainer.imgSlides);
-windieSlide(windieSlide.leftBtn1,windieSlide.windieSlideContainer.imgSlides);
-windieSlide(windieSlide.rightBtn1,windieSlide.windieSlideContainer.imgSlides);
+windieSlideControl(windieSlides.windieSlideContainer.imgSlides);
+windieSlide(windieSlides.leftBtn1,windieSlides.windieSlideContainer.imgSlides);
+windieSlide(windieSlides.rightBtn1,windieSlides.windieSlideContainer.imgSlides);
 
 const wpwStickerBox = document.querySelector("#work-page-windie > header > .sticker-box");
 

@@ -7,7 +7,7 @@ console.log(contactPage);
 // console.log(contactStamp2);
 // console.log(contactStamp3);
 
-displayChange(windieSlide.contactStamp1,wpWindie,contactPage);
+displayChange(windieSlides.contactStamp1,wpWindie,contactPage);
 displayChange(contactStamp2,wpBubbleroom,contactPage);
 displayChange(contactStamp3,wpToyproject,contactPage);
 
