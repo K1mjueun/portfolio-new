@@ -1,6 +1,6 @@
 // windie-process-page
 const windieProPage = document.querySelector('#windie-process-page');
-displayChange(windieSlide.windieWorkProBtns.children[0],wpWindie,windieProPage);
+displayChange(windieSlides.windieWorkProBtns.children[0],wpWindie,windieProPage);
 
 const windieTopBtn = document.querySelector("#windie-process-page > .process-page-5 > .process-board > .top-sticker");
 
